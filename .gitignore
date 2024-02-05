@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Dependencies
 /node_modules
@@ -33,3 +34,6 @@ pids
 # OS-specific
 Thumbs.db
   
+=======
+node_modules
+>>>>>>> 2b4159b4b6c3e6d13aea2c43e8a97aa8807d4dcd
