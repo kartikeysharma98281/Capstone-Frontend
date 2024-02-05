@@ -1,0 +1,135 @@
+.exploreExcitingJob {
+  position: absolute;
+  top: 79.08px;
+  left: calc(50% - 139.31px);
+  font-size: 18.01px;
+  font-weight: 600;
+  display: inline-block;
+  width: 278.13px;
+  height: 26.59px;
+}
+.welcomeBack {
+  top: 29.99px;
+  left: calc(50% - 48.31px);
+  font-size: 13.97px;
+  display: inline-block;
+  width: 97.48px;
+  height: 15px;
+}
+.forgotPassword,
+.or,
+.welcomeBack {
+  position: absolute;
+  font-weight: 600;
+}
+.or {
+  top: 363.35px;
+  left: calc(50% - 7.31px);
+  font-size: 14.32px;
+}
+.forgotPassword {
+  top: 262.45px;
+  left: calc(50% + 46.38px);
+  color: var(--f709c);
+  cursor: pointer;
+}
+.groupChild {
+  position: absolute;
+    top: -11px;
+    left: calc(50% - 20.81px);
+    border-radius: 3.41px;
+    background-color: var(--color-white);
+    box-shadow: 0 6.817009925842285px 7.5px rgba(79, 112, 156, 0.07);
+    border: 0.3px solid var(--f709c);
+    box-sizing: border-box;
+    width: 315.63px;
+    height: 40.9px;
+    font-size: 16px;
+    color: var(--f709c);
+}
+.emailAddress {
+  position: absolute;
+  top: 10.91px;
+  left: calc(50% - 136.68px);
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 140.43px;
+  left: calc(50% - 158.31px);
+  width: 315.63px;
+  height: 36.9px;
+  color: var(--f709c);
+  border: 2px;
+  border-color: #213555;
+  font-size: 17px;
+}
+.groupItem,
+.rectangleGroup {
+  position: absolute;
+  width: 315.63px;
+  height: 40.22px;
+}
+.groupItem {
+  top: 0;
+  left: calc(50% - 157.81px);
+  border-radius: 3.41px;
+  background-color: var(--color-white);
+  box-shadow: 0 6.817009925842285px 7.5px rgba(79, 112, 156, 0.07);
+  border: 0.3px solid var(--f709c);
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  top: 211.33px;
+  left: calc(50% - 158.31px);
+  color: var(--f709c);
+}
+.logInPopupChild {
+  position: absolute;
+  top: 397.43px;
+  left: calc(50% - 58.31px);
+  width: 117.01px;
+  height: 28.87px;
+  object-fit: cover;
+}
+.logIn {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 37px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.logInWrapper {
+  position: absolute;
+  top: 309px;
+  left: calc(50% - 116.31px);
+  border-radius: 2.67px;
+  background-color: var(--color);
+  width: 232px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 66.32621002197266px 1.1488255262374878px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 13.15px;
+  color: var(--fafafa);
+}
+.logInPopup {
+  position: relative;
+  background-color: var(--fafafa);
+  box-shadow: 0-2.72680401802063px 40.22px rgba(229, 210, 131, 0.14),
+    0 14.99742317199707px 40.22px rgba(229, 210, 131, 0.14);
+  width: 424.7px;
+  height: 477.87px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: 13.32px;
+  color: var(--color);
+  font-family: var(--font);
+}

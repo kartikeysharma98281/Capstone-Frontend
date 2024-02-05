@@ -1,0 +1,134 @@
+.createAnAccount,
+.discoverAWorld {
+  font-weight: 600;
+  display: inline-block;
+}
+.discoverAWorld {
+  position: absolute;
+  top: 79.08px;
+  left: calc(50% - 159.35px);
+  font-size: 18.01px;
+  width: 318.35px;
+  height: 26.59px;
+}
+.createAnAccount {
+  top: 29.99px;
+  left: calc(50% - 57.35px);
+  font-size: 13.97px;
+  width: 114.53px;
+  height: 15px;
+}
+.createAnAccount,
+.groupChild,
+.or {
+  position: absolute;
+}
+.or {
+  top: 417.88px;
+  left: calc(50% - 7.35px);
+  font-size: 14.32px;
+  font-weight: 600;
+}
+.groupChild {
+  top: 0;
+  left: calc(50% - 157.81px);
+  border-radius: 3.41px;
+  background-color: var(--color-white);
+  box-shadow: 0 6.817009925842285px 7.5px rgba(79, 112, 156, 0.07);
+  border: 0.3px solid var(--f709c);
+  box-sizing: border-box;
+  width: 315.63px;
+  height: 40.9px;
+  color: var(--f709c);
+  font-size: 16px;
+}
+.emailAddress {
+  position: absolute;
+  top: 9.91px;
+  left: calc(50% - 136.68px);
+  font-weight: 600;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  width: 315.63px;
+}
+.rectangleParent {
+  top: 140.43px;
+  left: calc(50% - 157.35px);
+  height: 40.9px;
+  color: var(--f709c);
+}
+.groupItem {
+  top: 0;
+  left: calc(50% - 157.81px);
+  border-radius: 3.41px;
+  background-color: var(--color-white);
+  box-shadow: 0 6.817009925842285px 7.5px rgba(79, 112, 156, 0.07);
+  border: 0.3px solid var(--f709c);
+  box-sizing: border-box;
+  height: 40.22px;
+  font-size: 16px;
+  color: var(--f709c);
+}
+.rectangleContainer,
+.rectangleGroup {
+  position: absolute;
+  top: 211.33px;
+  left: calc(50% - 157.35px);
+  width: 315.63px;
+  height: 40.22px;
+  color: var(--f709c);
+}
+.rectangleContainer {
+  top: 281.54px;
+}
+.signInChild {
+  position: absolute;
+  top: 451.97px;
+  left: calc(50% - 58.35px);
+  width: 117.01px;
+  height: 28.87px;
+  object-fit: cover;
+}
+.signIn1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 41.35px;
+  height: 17.72px;
+  flex-shrink: 0;
+}
+.signInWrapper {
+  position: absolute;
+  top: 363px;
+  left: calc(50% - 116.35px);
+  border-radius: 2.67px;
+  background-color: var(--e5d283);
+  border: 0.8px solid var(--color);
+  box-sizing: border-box;
+  width: 232px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 66.32621002197266px 1.1488255262374878px;
+  cursor: pointer;
+  font-size: 13.15px;
+}
+.signIn {
+  position: relative;
+  background-color: var(--fafafa);
+  box-shadow: 0-2.72680401802063px 40.22px rgba(229, 210, 131, 0.14),
+    0 14.99742317199707px 40.22px rgba(229, 210, 131, 0.14);
+  width: 424.7px;
+  height: 529px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: 13.32px;
+  color: var(--color);
+  font-family: var(--font);
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font: "Segoe UI";
+
+  /* font sizes */
+  --font-size-mini-8: 14.8px;
+  --font-size-mini-9: 14.9px;
+  --font-size-mini: 15px;
+  --font-size-smi-2: 12.2px;
+  --font-size-sm-5: 13.5px;
+  --font-size-xl-5: 20.5px;
+  --font-size-2xs-4: 10.4px;
+  --font-size-sm-2: 13.2px;
+  --font-size-sm-3: 13.3px;
+  --font-size-mini-3: 14.3px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --fafafa: #fefefe;
+  --color-white: #fff;
+  --f709c: #4f709c;
+  --color: #213555;
+  --color-silver: #bababa;
+  --e5d283: #e5d283;
+  --color-gainsboro: #d9d9d9;
+  --color-limegreen: #1ec51a;
+
+  /* Gaps */
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-3xs-9: 9.9px;
+  --padding-6xs: 7px;
+  --padding-4xs-8: 8.8px;
+  --padding-6xl-2: 25.2px;
+  --padding-12xs-8: 0.8px;
+  --padding-47xl-3: 66.3px;
+  --padding-11xs-1: 1.1px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-6xs-2: 6.2px;
+  --br-11xs: 2px;
+  --br-10xs-7: 2.7px;
+  --br-9xs-4: 3.4px;
+}
