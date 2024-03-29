@@ -1,0 +1,571 @@
+.education1,
+.skills-projects-frame {
+  position: absolute;
+  margin: 0 !important;
+}
+.education1 {
+  top: 115px;
+  left: 166px;
+  font-size: var(--font1-size);
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--color);
+  text-align: left;
+}
+.skills-projects-frame {
+  height: 0.5px;
+  width: 1431.5px;
+  top: 94px;
+  left: 63px;
+  box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+  border-top: 0.5px solid var(--e5d283);
+  box-sizing: border-box;
+}
+.skills-and-projects {
+  position: relative;
+  font-size: var(--font-size-base-7);
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--color-white);
+  text-align: left;
+}
+.frame-skills-projects {
+  height: 11.6px;
+  width: 5.8px;
+  position: relative;
+}
+.go-back1,
+.skills-and-project-button {
+  position: absolute;
+  margin: 0 !important;
+  cursor: pointer;
+}
+.skills-and-project-button {
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-36xl) var(--padding-7xs)
+    var(--padding-37xl);
+  background-color: var(--color);
+  height: 38px;
+  top: 641px;
+  left: 704px;
+  border-radius: 3.96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  white-space: nowrap;
+}
+/* .skills-and-project-button:hover {
+  background-color: var(--color-slategray);
+} */
+.go-back1 {
+  top: 649px;
+  left: 584px;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--e5d283);
+  text-align: left;
+}
+.educationseeker-child {
+  position: absolute;
+  top: 28px;
+  left: 63px;
+  width: 71px;
+  height: 36px;
+}
+.framework {
+  width: 50px;
+  position: relative;
+  font-size: var(--font-size-72xl-3);
+  font-family: var(--font);
+  color: var(--f709c);
+  text-align: left;
+  display: inline-block;
+}
+.city-region {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-6 {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.name-of-the {
+  width: 220.5px;
+  position: relative;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.component-6-parent,
+.component1 {
+  flex: 1;
+  position: relative;
+  box-sizing: border-box;
+}
+.component-6-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+  min-width: 242px;
+  max-width: 100%;
+}
+.component1 {
+  height: 44px;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+}
+.component-61 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.city-region1 {
+  position: relative;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.component-6-group {
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.secondary-info-frame {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.component-62 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.year-of-graduation {
+  position: relative;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.calendar-icon {
+  height: 24.3px;
+  width: 21.3px;
+  position: relative;
+  min-height: 24px;
+  z-index: 1;
+}
+.component-6-container {
+  width: 249px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.frame-group {
+  width: 953px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 20px;
+  max-width: 100%;
+}
+.title-rectangle {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-63 {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.title-of-degree {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base-6);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.component-6-child,
+.frame-div {
+  flex: 1;
+  position: relative;
+  box-sizing: border-box;
+}
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-21xl) var(--padding-xs)
+    var(--padding-xl);
+  min-width: 242px;
+  max-width: 100%;
+}
+.component-6-child {
+  height: 44px;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+}
+.component-64 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.name-of-the1 {
+  position: relative;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.component-6-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-39xl) var(--padding-xs)
+    var(--padding-lgi);
+  position: relative;
+}
+.component-6-item {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  background-color: var(--fafafa);
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.component-65 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.percentage-cgpa-gpa {
+  position: relative;
+  font-size: var(--font-size-base-3);
+  font-family: var(--font);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.component-6-parent2 {
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.frame-container,
+.frame-parent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 20px;
+  max-width: 100%;
+}
+.frame-parent {
+  flex-direction: column;
+  gap: 18px 0;
+}
+.component,
+.education-1,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 4px;
+  box-sizing: border-box;
+  min-width: 647px;
+}
+.education-1 {
+  width: 1088px;
+  margin: 0 !important;
+  position: absolute;
+  top: 158px;
+  left: calc(50% - 673px);
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-24xl);
+}
+.component-29-icon {
+  width: 39.7px;
+  height: 39.7px;
+  position: relative;
+  z-index: 1;
+}
+.text {
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  font-family: var(--font);
+  color: var(--f709c);
+  text-align: left;
+}
+.component-25 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs) 0 var(--padding-6xs);
+}
+.component-frame {
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 24px 0 0;
+  box-sizing: border-box;
+}
+.vector-icon {
+  height: 3.8px;
+  width: 403px;
+  position: absolute;
+  margin: 0 !important;
+  top: 17px;
+  right: -229px;
+}
+.text1 {
+  position: relative;
+  font-size: var(--font-size-lg-6);
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--f709c);
+  text-align: left;
+  white-space: nowrap;
+  top: 39px;
+}
+.component-27 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cityregionframe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-12xs) 0 0;
+}
+.component-31-icon {
+  height: 39.7px;
+  width: 39.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 22.3px;
+  z-index: 1;
+}
+.vector-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.component-30-icon {
+  width: 39.7px;
+  height: 39.7px;
+  position: relative;
+  z-index: 1;
+}
+.text2 {
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  font-family: var(--font);
+  color: var(--f709c);
+  text-align: left;
+  white-space: nowrap;
+}
+.component-26,
+.component-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.component-frame1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.component-32-icon {
+  width: 39.7px;
+  height: 39.7px;
+  position: relative;
+  z-index: 1;
+}
+.progressbarframe {
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  font-family: var(--font);
+  color: var(--f709c);
+  text-align: left;
+}
+.component-28 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.skills-and-projects-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.progress-bar-2 {
+  width: 449px;
+  margin: 0 !important;
+  position: absolute;
+  top: 19px;
+  left: 544px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.educationseeker {
+  margin: 0;
+  width: 100%;
+  height: 713px;
+  background-color: var(--fafafa);
+  overflow-y: auto;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .framework {
+    font-size: var(--font-size-8xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .framework {
+    font-size: var(--font-size-27xl);
+  }
+  .frame-container,
+  .frame-group {
+    flex-wrap: wrap;
+  }
+  .component {
+    min-width: 100%;
+  }
+  .education-1 {
+    flex-wrap: wrap;
+  }
+  .educationseeker {
+    height: auto;
+    min-height: 713;
+  }
+}

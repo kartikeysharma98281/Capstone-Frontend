@@ -1,0 +1,407 @@
+.monetization-location-text {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+  }
+  .ellipse-shape {
+    height: 175px;
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 0 0;
+    box-sizing: border-box; 
+  }
+  .data-analyst-intern {
+    position: relative;
+    font-weight: 600;
+  }
+  .techgen-innovations {
+    position: relative;
+    font-size: 20.7px;
+    color: var(--f709c);
+  }
+  .profile-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px 0;
+  }
+  .monetization-on-icon {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    min-height: 23px;
+  }
+  .month {
+    position: relative;
+  }
+  .location-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 2px;
+  }
+  .location-on-icon {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    min-height: 23px;
+  }
+  .new-york-city {
+    position: relative;
+  }
+  .location-text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 2px;
+    color: var(--color);
+  }
+  .monetization-frame {
+    flex-direction: row;
+    gap: 0 20px;
+  }
+  .monetization-frame,
+  .notifications-frame,
+  .requirements-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .requirements-frame {
+    flex-direction: column;
+    padding: var(--padding-sm) 0 0;
+    font-size: var(--font-size);
+    color: var(--color-limegreen);
+  }
+  .notifications-frame {
+    flex-direction: row;
+    gap: 0 37px;
+    max-width: 100%;
+  }
+  .techgen-innovations-is {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-lgi-5);
+    color: var(--f709c);
+  }
+  .app-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px 0;
+    max-width: 100%;
+  }
+  .what-youll-do {
+    margin: 0;
+    font-weight: 600;
+  }
+  .the-data-analyst {
+    margin: 0;
+    font-size: var(--font-size);
+    color: var(--f709c);
+  }
+  .what-youll-do-container {
+    flex: 1;
+    position: relative;
+    line-height: 25.6px;
+    display: inline-block;
+    min-height: 105px;
+    max-width: 100%;
+  }
+  .education-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-11xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .responsibilities {
+    margin: 0;
+    font-weight: 600;
+  }
+  .assist-in-decision-making-sup,
+  .data-collection-and-analysis1,
+  .data-mining-and-interpretation,
+  .quality-assurance-ensure-the,
+  .report-generation-create-repo {
+    margin-bottom: 8px;
+  }
+  .data-collection-and-analysis {
+    margin: 0;
+    font-size: var(--font-size);
+    padding-left: var(--padding-lg);
+    color: var(--f709c);
+  }
+  .responsibilities-data-collect-container {
+    align-self: stretch;
+    height: 199px;
+    position: relative;
+    line-height: 25.6px;
+    display: inline-block;
+  }
+  .requirements {
+    margin: 0;
+    font-weight: 600;
+  }
+  .analytical-skills-strong-anal,
+  .attention-to-detail-ability-t,
+  .communication-good-verbal-and,
+  .education-pursuing-or-recentl1,
+  .technical-proficiency-familia {
+    margin-bottom: 8px;
+  }
+  .education-pursuing-or-recentl {
+    margin: 0;
+    font-size: var(--font-size);
+    padding-left: var(--padding-lg);
+    color: var(--f709c);
+  }
+  .requirements-education-pursu-container {
+    align-self: stretch;
+    height: 199px;
+    position: relative;
+    line-height: 25.6px;
+    display: inline-block;
+  }
+  .perks1 {
+    font-size: var(--font-size-lgi-5);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--color);
+  }
+  .perks {
+    margin: 0;
+  }
+  .flexible-environment-a-dynami,
+  .learning-opportunity-exposure1,
+  .mentorship-guidance-from-expe,
+  .networking-opportunities-to-c {
+    margin-bottom: 8px;
+  }
+  .learning-opportunity-exposure {
+    margin: 0;
+    padding-left: var(--padding-lg);
+  }
+  .perks-learning-opportunity-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 17.6px;
+    display: inline-block;
+    min-height: 165px;
+    font-size: var(--font-size);
+    color: var(--f709c);
+  }
+  .data-analyst-intern-text,
+  .data-intern-frame,
+  .responsibilities-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .responsibilities-frame {
+    width: 793px;
+    flex-direction: column;
+    gap: 45px 0;
+    font-size: var(--font-size-lgi-5);
+  }
+  .data-analyst-intern-text,
+  .data-intern-frame {
+    flex: 1;
+  }
+  .data-intern-frame {
+    flex-direction: column;
+    gap: 77px 0;
+    min-width: 554px;
+  }
+  .data-analyst-intern-text {
+    flex-direction: row;
+    gap: 0 60px;
+  }
+  .apply {
+    position: relative;
+    font-size: 13.1px;
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--fafafa);
+    text-align: left;
+  }
+  .apply-button-frame {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+    background-color: var(--color);
+    width: 126px;
+    border-radius: 2.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+ 
+  .posted-on-october {
+    position: relative;
+  }
+  .posted-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 9px 0;
+  }
+  .apply-button-label,
+  .inner-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .apply-button-label {
+    flex-direction: column;
+    padding: var(--padding-2xs) 0 0;
+    font-size: var(--font-size-base);
+    color: var(--f709c);
+  }
+  .inner-frame {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 52px;
+    max-width: 100%;
+  }
+  .apply1 {
+    position: relative;
+    font-size: 18.7px;
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--fafafa);
+    text-align: left;
+  }
+  .apply-button,
+  .posting-info {
+    display: flex;
+    flex-direction: row;
+  }
+  .posting-info {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-sm) var(--padding-base);
+    background-color: var(--color);
+    width: 293px;
+    border-radius: 3.79px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .apply-button {
+    width: 439px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .october-posted-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: 31.5px;
+    color: var(--color);
+    font-family: var(--font);
+  }
+  .apply-text,
+  .jobs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .apply-text {
+    width: 1391px;
+    flex-direction: row;
+    padding: 0 42px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .jobs {
+    width: 100%;
+    position: relative;
+    background-color: var(--fafafa);
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 0 0 48px;
+    gap: 60px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .apply-text {
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .data-analyst-intern {
+      font-size: 19px;
+    }
+    .techgen-innovations {
+      font-size: var(--font-size-mid);
+    }
+    .responsibilities-frame {
+      gap: 45px 0;
+    }
+    .data-intern-frame {
+      gap: 77px 0;
+    }
+    .october-posted-text {
+      gap: 100px 0;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .notifications-frame {
+      flex-wrap: wrap;
+      gap: 0 37px;
+    }
+    .data-intern-frame {
+      min-width: 100%;
+    }
+    .inner-frame {
+      gap: 0 52px;
+    }
+    .october-posted-text {
+      gap: 100px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .data-analyst-intern {
+      font-size: 25px;
+    }
+    .data-intern-frame {
+      gap: 77px 0;
+    }
+    .data-analyst-intern-text {
+      flex-wrap: wrap;
+      gap: 0 60px;
+      min-width: 100%;
+    }
+    .jobs {
+      gap: 60px 0;
+    }
+  }

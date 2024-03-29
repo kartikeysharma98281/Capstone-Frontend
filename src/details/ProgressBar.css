@@ -1,0 +1,138 @@
+.vector-icon1 {
+    height: 3.8px;
+    width: 403px;
+    position: absolute;
+    margin: 0 !important;
+    top: 17px;
+    right: -355px;
+  }
+  .text3 {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    top: 38px;
+    left: 3px;
+  }
+  .component-19 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .component-19-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-16xl) var(--padding-12xl) 0 0;
+  }
+  .component-15-icon {
+    height: 39.7px;
+    width: 39.7px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: -3px;
+    z-index: 1;
+  }
+  .vector-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    font-size: var(--font-size-lg-6);
+  }
+  .component-18-icon {
+    height: 39.7px;
+    width: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .component-18-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs) 0 var(--padding-3xs);
+  }
+  .root-container {
+    position: relative;
+  }
+  .component-20,
+  .frame-parent5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .frame-parent5 {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+  }
+  .component-23-icon {
+    width: 39.7px;
+    height: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .text4 {
+    position: relative;
+    white-space: nowrap;
+  }
+  .component-21 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  }
+  .component-23-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .component-24-icon {
+    width: 39.7px;
+    height: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .text5 {
+    position: relative;
+  }
+  .component-22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  }
+  .component-24-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .progress-bar-1 {
+    width: 450px;
+    margin: 0 !important;
+    position: absolute;
+    top: 19px;
+    left: 544px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-10xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-smi-7);
+    color: var(--f709c);
+    font-family: var(--font);
+  }

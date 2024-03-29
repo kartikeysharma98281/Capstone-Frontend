@@ -1,0 +1,172 @@
+.header-child {
+    height: 51px;
+    width: 1536px;
+    position: relative;
+    background-color: var(--celestial-hue-celestial-light);
+    border-bottom: 0.5px solid var(--e5d283);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .nexus {
+    position: relative;
+    font-weight: 900;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .jobs-educate-frame,
+  .work {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .jobs-educate-frame {
+    width: 50px;
+    height: 2px;
+    right: 2px;
+    bottom: 17px;
+    border-top: 2px solid var(--e5d283);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .work {
+    top: 0;
+    right: 4.5px;
+    font-size: var(--font-size-xl-6);
+    font-weight: 300;
+    color: var(--color);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-base) 0 0;
+  }
+  .educate,
+  .line {
+    position: relative;
+  }
+  .jobs1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .educate1 {
+    position: relative;
+    white-space: nowrap;
+  }
+  .jobs2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .educate2 {
+    position: relative;
+  }
+  .jobs3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .application-frame,
+  .nexus-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .application-frame {
+    flex: 1;
+    align-items: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 0 31px;
+    z-index: 3;
+    font-size: var(--font-size-mini);
+    color: var(--f709c);
+  }
+  .nexus-text {
+    width: 382px;
+    align-items: center;
+    gap: 0 90px;
+    max-width: 100%;
+  }
+  .application-icon,
+  .bookmarks-icon {
+    height: 19.7px;
+    width: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  .application-icon {
+    height: 20.2px;
+    width: 20.2px;
+  }
+  .notifications-icon,
+  .profile-icon {
+    height: 25px;
+    width: 19px;
+    position: relative;
+    z-index: 1;
+  }
+  .profile-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .header,
+  .monetization-data-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .monetization-data-frame {
+    width: 178px;
+    justify-content: flex-start;
+    gap: 0 31px;
+  }
+  .header {
+    align-self: stretch;
+    background-color: var(--celestial-hue-celestial-light);
+    box-shadow: 0 3px 11px rgba(229, 210, 131, 0.07);
+    border-top: 1px solid var(--e5d283);
+    border-right: 1px solid var(--e5d283);
+    border-bottom: 0.5px solid var(--e5d283);
+    border-left: 1px solid var(--e5d283);
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: var(--padding-10xs) var(--padding-49xl) var(--padding-10xs)
+      var(--padding-22xl);
+    gap: var(--gap-xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-2xl-3);
+    color: var(--e5d283);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1050px) {
+    .header {
+      padding-right: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .application-frame {
+      display: none;
+    }
+    .nexus-text {
+      width: 157px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .nexus-text {
+      gap: 0 90px;
+    }
+  }

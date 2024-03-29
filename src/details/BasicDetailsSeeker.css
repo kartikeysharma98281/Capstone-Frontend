@@ -1,0 +1,133 @@
+.group,
+.lets-get-you {
+  position: absolute;
+  margin: 0 !important;
+}
+.lets-get-you {
+  top: 129px;
+  left: 458px;
+  font-size: var(--font1-size);
+  font-weight: 600;
+}
+.group {
+  height: 0.5px;
+  width: 1431.5px;
+  top: 94px;
+  left: 63px;
+  box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+  border-top: 0.5px solid var(--e5d283);
+  box-sizing: border-box;
+}
+.first-name-frame {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.group-icon,
+.profile-photo {
+  position: relative;
+}
+.group-icon {
+  height: 18px;
+  width: 17.8px;
+}
+.frame-wrapper,
+.profile-photo-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profile-photo-parent {
+  align-items: flex-end;
+  gap: 0 16px;
+}
+.frame-wrapper {
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.first-name-frame-parent {
+  height: 252px;
+  width: 207px;
+  margin: 0 !important;
+  position: absolute;
+  top: 180px;
+  left: calc(50% - 644px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 23px;
+  color: var(--color-silver);
+}
+.education {
+  position: relative;
+  font-size: var(--font-size-base-7);
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--color-white);
+  text-align: left;
+  left: 8px;
+}
+.text-frame-icon {
+  height: 11.6px;
+  width: 5.8px;
+  position: relative;
+}
+.education-frame,
+.go-back {
+  position: absolute;
+  margin: 0 !important;
+  cursor: pointer;
+}
+.education-frame {
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-36xl) var(--padding-7xs)
+    var(--padding-37xl);
+  background-color: var(--color);
+  height: 38px;
+  top: 641px;
+  left: 704px;
+  border-radius: 3.96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 16px 15px;
+  width: 95px;
+}
+.education-frame:hover {
+  color: black;
+}
+.go-back {
+  top: 649px;
+  left: 584px;
+  color: var(--e5d283);
+}
+.basic-detailsseeker-child {
+  position: absolute;
+  top: 28px;
+  left: 63px;
+  width: 71px;
+  height: 36px;
+}
+.basic-detailsseeker {
+  width: 100%;
+  height: 713px;
+  position: relative;
+  background-color: var(--fafafa);
+  overflow-y: auto;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base-3);
+  color: var(--color);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1150px) {
+  .basic-detailsseeker {
+    height: auto;
+    min-height: 713;
+  }
+}

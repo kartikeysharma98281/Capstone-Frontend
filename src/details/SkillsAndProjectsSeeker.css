@@ -1,0 +1,375 @@
+.projects-minimum-2 {
+    position: absolute;
+    margin: 0 !important;
+    top: 115px;
+    left: 166px;
+    font-weight: 600;
+  }
+  .skills-and-projectsseeker-child {
+    height: 0.5px;
+    width: 1431.5px;
+    position: absolute;
+    margin: 0 !important;
+    top: 94px;
+    left: 63px;
+    background-color: var(--f709c);
+    box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+    border-top: 0.5px solid var(--e5d283);
+    box-sizing: border-box;
+  }
+  .resume-and-portfolio {
+    position: relative;
+    font-size: var(--font-size-base-7);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .frame-parent-icon {
+    height: 11.6px;
+    width: 5.8px;
+    position: relative;
+  }
+  .go-back2,
+  .skills-and-project-button1 {
+    position: absolute;
+    margin: 0 !important;
+    cursor: pointer;
+  }
+  .skills-and-project-button1 {
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-36xl) var(--padding-7xs)
+      var(--padding-37xl);
+    background-color: var(--color);
+    height: 38px;
+    top: 1112px;
+    left: 704px;
+    border-radius: 3.96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: var(--gap-base);
+    white-space: nowrap;
+  }
+  .skills-and-project-button1:hover {
+    background-color: var(--color-slategray);
+  }
+  .go-back2 {
+    top: 1120px;
+    left: 584px;
+    font-size: var(--font-size-base-3);
+    color: var(--e5d283);
+  }
+  .skills-and-projectsseeker-item {
+    position: absolute;
+    top: 28px;
+    left: 63px;
+    width: 71px;
+    height: 36px;
+  }
+  .div {
+    width: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  .component-6-inner {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-66 {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .title-of-the {
+    width: 220.5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .component-6-parent3,
+  .rectangle-div {
+    flex: 1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .component-6-parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    min-width: 242px;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    height: 44px;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+  }
+  .component-67 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .role-in-the {
+    width: 132px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font);
+    font-size: var(--font-size-base-3);
+    background-color: transparent;
+    height: 22px;
+    position: relative;
+    color: var(--color-silver);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .component-6-parent4 {
+    width: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+  }
+  .frame-child,
+  .frame-parent1,
+  .frame-parent2,
+  .frame-wrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 20px;
+    max-width: 100%;
+  }
+  .frame-child,
+  .frame-parent1,
+  .frame-wrapper1 {
+    flex-direction: column;
+  }
+  .frame-child {
+    border: 0.8px solid var(--color-silver);
+    background-color: var(--fafafa);
+    height: 139px;
+    width: auto;
+    outline: 0;
+    align-self: stretch;
+    box-sizing: border-box;
+    padding: var(--padding-3xs) var(--padding-xl);
+    font-family: var(--font);
+    font-size: var(--font-size-base-6);
+    color: var(--color-silver);
+  }
+  .frame-parent1,
+  .frame-wrapper1 {
+    max-width: 100%;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    gap: 18px 0;
+  }
+  .frame-wrapper1 {
+    flex: 1;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+    min-width: 445px;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver);
+  }
+  .component-6-child1,
+  .parent {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 43px;
+  }
+  .component-6-child1 {
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-68 {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .link-of-website {
+    position: relative;
+    z-index: 1;
+  }
+  .education-3,
+  .frame-footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .frame-footer {
+    width: 683px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver);
+    font-family: var(--font);
+  }
+  .education-3 {
+    width: 777px;
+    margin: 0 !important;
+    position: absolute;
+    top: 774px;
+    left: calc(50% - 673px);
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+    font-size: var(--font-size-72xl-3);
+    color: var(--f709c);
+  }
+  .component-6-child2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-69 {
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .frame-item,
+  .search-languages-softwares {
+    position: relative;
+    z-index: 1;
+  }
+  .frame-item {
+    height: 17.5px;
+    width: 17.5px;
+    z-index: 2;
+  }
+  .group-div,
+  .skills-minimum-5 {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .group-div {
+    top: 168px;
+    left: calc(50% + 227px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 13px var(--padding-xs) var(--padding-lgi);
+    box-sizing: border-box;
+    gap: 57px;
+    max-width: 100%;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver);
+  }
+  .skills-minimum-5 {
+    top: 115px;
+    left: 995px;
+    font-weight: 600;
+  }
+  .skills-and-projectsseeker {
+    width: 100%;
+    height: 1189px;
+    position: relative;
+    background-color: var(--fafafa);
+    overflow-y: auto;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font1-size);
+    color: var(--color);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1150px) {
+    .div {
+      font-size: var(--font-size-8xl);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .frame-parent2 {
+      flex-wrap: wrap;
+    }
+    .frame-wrapper1 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .div {
+      font-size: var(--font-size-27xl);
+    }
+    .parent {
+      flex-wrap: wrap;
+    }
+    .skills-and-projectsseeker {
+      height: auto;
+      min-height: 1189;
+    }
+  }

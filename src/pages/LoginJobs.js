@@ -28,39 +28,21 @@ const JOBS = () => {
   return (
     <>
       <div className={styles.jobs}>
-       <JobCard
+        <JobCard
           name="TechGen Innovations"
           role="Data Analyst Intern"
           date="October 15, 2023"
           city="New York City, NY"
           salary="₹25000/month"
           description="Analyze and interpret data to provide actionable insights."
-          top="133px"
-        />  
-       <JobCard
-          name="DataTech Solutions"
-          role="Software Developer"
-          date="November 5, 2023"
-          city="San Francisco, CA"
-          salary="₹7.9 LPA"
-          description="Design and develop software applications."
-          top="335px"
         />
-         <JobCard
-          name="MediCare Analytics"
-          role="Marketing Associate"
-          date="October 25, 2023"
-          city="Chicago, IL"
-          salary="₹6 LPA"
-          description="Assist in marketing campaigns and strategies."
-          top="537px"
-        /> 
+      
         <div className={styles.exploreExcitingCareer}>
           Explore exciting career options!
         </div>
         <div className={styles.header}>
           <div className={styles.headerChild} />
-          <div className={styles.bookmarksParent}>
+          <div className={styles.bookmarksParent} style={{right: "60px"}}>
             <img
               className={styles.bookmarksIcon}
               alt=""
@@ -79,6 +61,12 @@ const JOBS = () => {
               src="/notifications@2x.png"
               style={{ cursor: "pointer" }}
             />
+            <img
+              className={styles.notificationsIcon}
+              alt=""
+              src="/profile.png"
+              style={{ cursor: "pointer" , height: "24px"  , width: "24px"}}
+            />
           </div>
           <div className={styles.headerInner}>
             <div className={styles.nexusParent}>
@@ -87,12 +75,7 @@ const JOBS = () => {
               <div className={styles.work}>Work</div>
             </div>
           </div>
-          <div className={styles.signUpWrapper} onClick={openSignIn}>
-            <div className={styles.signUp}>Sign up</div>
-          </div>
-          <div className={styles.logInWrapper} onClick={openLogInPopup}>
-            <div className={styles.logIn}>Log in</div>
-          </div>
+         
         </div>
         <div className={styles.jobsParent}>
           <div className={styles.jobs1}>

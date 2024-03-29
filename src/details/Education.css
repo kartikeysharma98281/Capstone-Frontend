@@ -1,0 +1,306 @@
+.div1 {
+    width: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  .component-6-child3 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-612 {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .name-of-the2 {
+    width: 220.5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .component-6-child4,
+  .component-6-parent7 {
+    flex: 1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .component-6-parent7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    min-width: 242px;
+    max-width: 100%;
+  }
+  .component-6-child4 {
+    height: 44px;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+  }
+  .component-613 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .city-region4 {
+    position: relative;
+    z-index: 1;
+  }
+  .component-6-parent8 {
+    width: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+  }
+  .component-6-child5 {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-614 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .calendar-icon2,
+  .year-of-graduation1 {
+    position: relative;
+    z-index: 1;
+  }
+  .calendar-icon2 {
+    height: 24.3px;
+    width: 21.3px;
+    min-height: 24px;
+  }
+  .component-6-parent9 {
+    width: 249px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs)
+      var(--padding-lgi);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-xl);
+  }
+  .frame-parent7 {
+    width: 953px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 20px;
+    max-width: 100%;
+  }
+  .second-degree-rectangle {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-615 {
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .title-of-degree1 {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+  }
+  .component-6-parent10,
+  .education-board-frame {
+    flex: 1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .component-6-parent10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-xs)
+      var(--padding-xl);
+    min-width: 242px;
+    max-width: 100%;
+    font-size: var(--font-size-base-6);
+  }
+  .education-board-frame {
+    height: 44px;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+  }
+  .component-616 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .name-of-the3 {
+    position: relative;
+    z-index: 1;
+  }
+  .component-6-parent11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-39xl) var(--padding-xs)
+      var(--padding-lgi);
+    position: relative;
+  }
+  .projects-frame {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-617 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .percentage-cgpa-gpa1 {
+    position: relative;
+    z-index: 1;
+  }
+  .component-6-parent12 {
+    width: 291px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+  }
+  .frame-parent8 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 20px;
+  }
+  .education-2,
+  .frame-parent6,
+  .frame-parent8 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent6 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px 0;
+    min-width: 647px;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver);
+  }
+  .education-2 {
+    width: 1088px;
+    margin: 0 !important;
+    position: absolute;
+    top: 310px;
+    left: calc(50% - 570px);
+    flex-direction: row;
+    align-items: flex-end;
+    gap: var(--gap-24xl);
+    text-align: left;
+    font-size: var(--font-size-72xl-3);
+    color: var(--f709c);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1150px) {
+    .div1 {
+      font-size: var(--font-size-8xl);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .div1 {
+      font-size: var(--font-size-27xl);
+    }
+    .frame-parent7,
+    .frame-parent8 {
+      flex-wrap: wrap;
+    }
+    .frame-parent6 {
+      min-width: 100%;
+    }
+    .education-2 {
+      flex-wrap: wrap;
+    }
+  }

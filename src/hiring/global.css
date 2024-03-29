@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font: "Segoe UI";
+
+  /* font sizes */
+  --font-size-base-3: 16.3px;
+  --font-size: 19.5px;
+  --font-size-base-6: 16.6px;
+  --font-size-base-7: 16.7px;
+  --font-size-10xl-3: 29.3px;
+  --font-size-4xl: 23px;
+
+  /* Colors */
+  --fafafa: #fefefe;
+  --color-silver-100: #bababa;
+  --color: #213555;
+  --e5d283: #e5d283;
+  --celestial-hue-celestial-light: #fff;
+  --f709c: #4f709c;
+
+  /* Gaps */
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-6xs-4: 6.4px;
+  --padding-37xl: 56px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}

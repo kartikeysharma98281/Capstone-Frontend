@@ -92,12 +92,8 @@
   object-fit: cover;
 }
 .signIn1 {
-  position: relative;
-  font-weight: 600;
-  display: inline-block;
-  width: 41.35px;
-  height: 17.72px;
-  flex-shrink: 0;
+ border:var(--e5d283);
+ background-color: var(--e5d283);
 }
 .signInWrapper {
   position: absolute;

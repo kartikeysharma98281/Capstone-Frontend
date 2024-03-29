@@ -1,0 +1,441 @@
+.complete-you-hiring {
+    position: absolute;
+    top: 28px;
+    left: calc(50% - 183px);
+    font-size: 29.31px;
+    font-weight: 600;
+    color: var(--color);
+  }
+  .hiring-profile-child {
+    position: absolute;
+    top: 94px;
+    left: 63px;
+    background-color: var(--f709c);
+    box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+    border-top: 0.5px solid var(--e5d283);
+    box-sizing: border-box;
+    width: 1431.5px;
+    height: 0.5px;
+  }
+  .post-job {
+    position: relative;
+    font-size: var(--font-size-base-7);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--celestial-hue-celestial-light);
+    text-align: left;
+    display: inline-block;
+    min-width: 62px;
+  }
+  .frame-child {
+    width: 5.8px;
+    height: 11.6px;
+    position: relative;
+  }
+  .skills-and-project-button,
+  .skills-and-project-button-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .skills-and-project-button-inner {
+    height: 18.3px;
+    flex-direction: column;
+    padding: 6.699999999999818px 0 0;
+    box-sizing: border-box;
+  }
+  .skills-and-project-button {
+    cursor: pointer;
+    border: 0;
+    padding: 6.400000000000091px var(--padding-37xl) 6.399999999999864px;
+    background-color: var(--color);
+    position: absolute;
+    top: 658px;
+    left: 704px;
+    border-radius: 3.96px;
+    flex-direction: row;
+    gap: var(--gap-base);
+  }
+  .go-back {
+    position: absolute;
+    top: 666px;
+    left: 584px;
+    color: var(--e5d283);
+    display: inline-block;
+    min-width: 59px;
+  }
+  .hiring-profile-item {
+    position: absolute;
+    top: 28px;
+    left: 63px;
+    width: 71px;
+    height: 36px;
+  }
+  .component-6-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .full-name {
+    position: absolute;
+    top: 10px;
+    left: 19.4px;
+    display: inline-block;
+    width: 220.5px;
+    z-index: 1;
+  }
+  .component-6-parent {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    min-width: 242px;
+    max-width: 100%;
+  }
+  .component-6-item {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+  }
+  .component-61 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .name-of-organization {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font);
+    font-size: var(--font-size-base-3);
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    color: var(--color-silver-100);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 1;
+  }
+  .component-6-group {
+    height: 44px;
+    width: 291px;
+    position: relative;
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .component-6-inner,
+  .education-1-child {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+  }
+  .education-1-child {
+    height: 139px;
+    width: auto;
+    outline: 0;
+    padding: 10px 20px;
+    font-family: var(--font);
+    font-size: var(--font-size-base-6);
+    color: var(--color-silver-100);
+  }
+  .component-6-inner {
+    flex: 1;
+    max-width: 100%;
+  }
+  .component-62 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .role-at-organization {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    display: inline-block;
+    width: 250px;
+    z-index: 1;
+  }
+  .component-6-container {
+    align-self: stretch;
+    height: 44px;
+    position: relative;
+    max-width: 100%;
+  }
+  .education-1 {
+    position: absolute;
+    top: 169px;
+    left: calc(50% - 342px);
+    width: 684px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    max-width: 100%;
+  }
+  .about-yourself {
+    position: absolute;
+    top: 115px;
+    left: 426px;
+    font-size: var(--font-size);
+    font-weight: 600;
+    color: var(--color);
+  }
+  .frame-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    width: 207px;
+  }
+  .profile-photo {
+    position: relative;
+    display: inline-block;
+    min-width: 94px;
+  }
+  .frame-inner {
+    width: 17.8px;
+    height: 18px;
+    position: relative;
+    left: 2px;
+  }
+  .frame-container {
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-wrapper,
+  .profile-photo-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .profile-photo-parent {
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .frame-wrapper {
+    justify-content: flex-end;
+    padding: 0 38.19999999999982px 0 41px;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 169px;
+    left: calc(50% - 641px);
+    width: 207px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 23px;
+  }
+  .component-9-child {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+  }
+  .component-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .contact-number {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    display: inline-block;
+    min-width: 117px;
+    z-index: 1;
+  }
+  .component-9-parent {
+    position: absolute;
+    top: 450px;
+    left: 476px;
+    width: 242px;
+    height: 44px;
+  }
+  .component-11-child {
+    right: 0;
+    bottom: 0;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+  }
+  .component-11,
+  .component-11-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .div {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    display: inline-block;
+    min-width: 29px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .component-11-parent {
+    position: absolute;
+    top: 450px;
+    left: 426px;
+    width: 43px;
+    height: 44px;
+  }
+  .component-10-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .email-address {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 99px;
+    z-index: 1;
+  }
+  .component-10-parent {
+    position: absolute;
+    top: 450px;
+    left: 739px;
+    width: 371px;
+    height: 44px;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-63 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .ein-employer-identification {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    display: inline-block;
+    width: 623px;
+    z-index: 1;
+  }
+  .group-div {
+    position: absolute;
+    top: 512px;
+    left: calc(50% - 342px);
+    width: 683px;
+    height: 44px;
+    max-width: 100%;
+  }
+  .hiring-profile {
+    width: 100%;
+    height: 737px;
+    background-color: var(--fafafa);
+    overflow-y: auto;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver-100);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 547px) {
+    .hiring-profile {
+      height: auto;
+      min-height: 737;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .complete-you-hiring {
+      font-size: 29.31px;
+    }
+  }

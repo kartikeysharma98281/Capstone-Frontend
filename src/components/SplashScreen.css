@@ -1,0 +1,180 @@
+.frame-inner {
+    width: 1283.6px;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: -495px;
+    max-height: 100%;
+  }
+  .discover-connect-succeed,
+  .frame-child1 {
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-child1 {
+    width: 398.3px;
+    height: 202px;
+  }
+  .discover-connect-succeed {
+    display: inline-block;
+  }
+  .frame-parent3 {
+    width: 789px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 199px 61px 201px var(--padding-xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: 12px 0;
+    opacity: 0.28;
+    min-width: 789px;
+    max-width: 100%;
+  }
+  .work-nexus-is {
+    align-self: stretch;
+    height: 132px;
+    position: relative;
+    /* line-height: 0%;  */
+    display: inline-block;
+  }
+  .looking-for-job {
+    position: relative;
+    font-size: var(--font-size-sm-4);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--fafafa);
+    text-align: left;
+  }
+  .looking-for-job-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs) var(--padding-lgi) var(--padding-mini) 21px;
+    background-color: var(--color);
+    border-radius: 3.18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .im-hiring {
+    position: relative;
+    font-size: var(--font-size-sm-4);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--color);
+    text-align: left;
+  }
+  .im-hiring-wrapper {
+    cursor: pointer;
+    border: 1px solid var(--color);
+    padding: var(--padding-xs) var(--padding-16xl) var(--padding-mini) 39px;
+    background-color: var(--e5d283);
+    border-radius: 3.18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+ 
+  .frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 23px 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 0 55px;
+    max-width: 100%;
+  }
+  .work-nexus-is-designed-to-conn-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px 0;
+    max-width: 100%;
+  }
+  .splash-screen,
+  .splash-screen-inner {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .splash-screen-inner {
+    width: 540px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    min-width: 540px;
+    max-width: 100%;
+    font-size: 20.9px;
+  }
+  .splash-screen {
+    width: 100%;
+    position: relative;
+    background-color: var(--fafafa);
+    overflow-y: auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 33px 0 29px;
+    gap: 0 83px;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 28.6px;
+    color: var(--f709c);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1350px) {
+    .frame-parent3,
+    .splash-screen-inner {
+      flex: 1;
+    }
+    .splash-screen {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .frame-parent3 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .frame-parent3 {
+      padding-top: 129px;
+      padding-right: 30px;
+      padding-bottom: 131px;
+      box-sizing: border-box;
+    }
+    .work-nexus-is-designed-to-conn-parent {
+      gap: 45px 0;
+    }
+    .splash-screen-inner {
+      min-width: 100%;
+    }
+    .splash-screen {
+      gap: 0 83px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .discover-connect-succeed {
+      font-size: 23px;
+    }
+    .work-nexus-is {
+      font-size: 17px;
+    }
+    .frame-parent4 {
+      flex-wrap: wrap;
+      gap: 0 55px;
+    }
+    .splash-screen {
+      gap: 0 83px;
+    }
+    }

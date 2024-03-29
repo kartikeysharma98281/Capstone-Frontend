@@ -1,10 +1,15 @@
 import { useCallback } from "react";
 import styles from "./LogInPopup.module.css";
+import { useNavigate } from 'react-router-dom';
 
 const LogInPopup = () => {
-  const onFrameContainerClick = useCallback(() => {
-    // Please sync "JOBS" to the project
-  }, []);
+  const navigate = useNavigate();
+  const onFrameContainerClick = ()=>{
+    navigate('/login-jobs')
+  }
+    
+ 
+
 
   return (
     <div className={styles.logInPopup}>

@@ -1,0 +1,398 @@
+.last-name {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-611 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-name {
+    width: 75px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font);
+    font-size: var(--font-size-base-3);
+    background-color: transparent;
+    height: 22px;
+    position: relative;
+    color: var(--color-silver);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .component-6-parent6,
+  .component-7-child {
+    flex: 1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .component-6-parent6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    min-width: 189px;
+  }
+  .component-7-child {
+    height: 44px;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+  }
+  .component-7 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .last-name1 {
+    position: relative;
+    z-index: 1;
+  }
+  .component2,
+  .contact-number-frame {
+    display: flex;
+    align-items: flex-start;
+  }
+  .component2 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+    min-width: 189px;
+  }
+  .contact-number-frame {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 40px;
+  }
+  .component-8-child {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-8 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .calendar-icon1,
+  .date-of-birth {
+    position: relative;
+    z-index: 1;
+  }
+  .calendar-icon1 {
+    height: 24.3px;
+    width: 21.3px;
+    min-height: 24px;
+  }
+  .education-frame1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs)
+      var(--padding-lgi);
+    position: relative;
+    gap: var(--gap-xl);
+  }
+  .component-11,
+  .profile-pic-rectangle {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .profile-pic-rectangle {
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-11 {
+    margin: 0 !important;
+  }
+  .frame-component {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .first-last-name-rectangle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-sm) var(--padding-xs)
+      var(--padding-7xs);
+    position: relative;
+  }
+  .date-of-birth-calendar {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-9 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-number {
+    width: 117px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font);
+    font-size: var(--font-size-base-3);
+    background-color: transparent;
+    height: 22px;
+    position: relative;
+    color: var(--color-silver);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .component-9-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-xl) var(--padding-xs);
+    box-sizing: border-box;
+    position: relative;
+    min-width: 117px;
+  }
+  .description-frame,
+  .email-addr-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .email-addr-frame {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 6px;
+  }
+  .description-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 30px 0;
+    min-width: 189px;
+  }
+  .component-11-child {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid white;
+    box-sizing: border-box;
+  }
+  .component-111 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  /* .city-region3 { */
+    /* position: absolute;
+    top: 11px;
+    left: 19px;
+    z-index: 2; */
+  /* } */
+  .component-11-parent {
+    align-self: stretch;
+    height: 44px;
+    position: relative;
+  }
+  .component-10-child {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+  }
+  .component-10 {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .email-address {
+    position: relative;
+    z-index: 1;
+  }
+  .component-10-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-lgi) var(--padding-xs);
+    position: relative;
+  }
+  .city-region2,
+  .description-frame1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .description-frame1 {
+    flex: 1;
+    flex-direction: column;
+    gap: 30px 0;
+    min-width: 189px;
+  }
+  .city-region2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 40px;
+  }
+  .component-12-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--fafafa);
+    border: 0.8px solid var(--color-silver);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-12 {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    top: 187px;
+  }
+  .short-description-about {
+    position: relative;
+    z-index: 1;
+    top: 192px;
+  }
+  .short-description-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+  }
+  .words-maximum {
+    position: relative;
+    font-size: var(--font-size);
+    z-index: 1;
+    top: 187px;
+  }
+  .contact-number-frame-parent,
+  .instance-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .instance-component {
+    align-self: stretch;
+    align-items: flex-end;
+    padding: var(--padding-xs) var(--padding-xs) var(--padding-sm);
+    box-sizing: border-box;
+    position: relative;
+    gap: 93px 0;
+  }
+  .contact-number-frame-parent {
+    width: 622px;
+    margin: 0 !important;
+    position: absolute;
+    top: 191px;
+    left: calc(50% - 311px);
+    align-items: flex-start;
+    gap: var(--gap-11xl);
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-base-3);
+    color: var(--color-silver);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1150px) {
+    .city-region2,
+    .contact-number-frame {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .email-addr-frame {
+      flex-wrap: wrap;
+    }
+  }

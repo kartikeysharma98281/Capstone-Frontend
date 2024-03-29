@@ -1,0 +1,152 @@
+.component-42-icon {
+    width: 39.7px;
+    height: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .completed-percentage {
+    position: relative;
+  }
+  .component-34,
+  .saving-state {
+    display: flex;
+    align-items: center;
+  }
+  .component-34 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+  }
+  .saving-state {
+    width: 82px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 var(--padding-23xl) 0 0;
+    box-sizing: border-box;
+    right: 81px;
+    position: relative;
+  }
+  .component-46-icon {
+    width: 39.7px;
+    height: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .portfolio-site-link {
+    position: relative;
+  }
+  .component-38 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  }
+  .component-46-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    right: 45px
+  }
+  .component-44-icon {
+    height: 39.7px;
+    width: 39.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .component-44-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+  }
+  .nested-progress-bar {
+    position: relative;
+  }
+  .rectangle-instance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .component-36 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .skills-projects-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    right: 34px;
+  }
+  .completed-frame {
+    width: 224px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .vector-icon3 {
+    height: 3.8px;
+    width: 403px;
+    position: absolute;
+    margin: 0 !important;
+    top: 17px;
+    left: -366px;
+  }
+  .linked-text-instance {
+    position: relative;
+    font-weight: 600;
+  }
+  .component-40 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-instance-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-16xl) var(--padding-12xs) 0 0;
+  }
+  .component-48-icon {
+    height: 39.7px;
+    width: 39.7px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 18.3px;
+    z-index: 1;
+  }
+  .progress-bar-4,
+  .vector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    font-size: var(--font-size-lg-6);
+  }
+  .progress-bar-4 {
+    margin: 0 !important;
+    position: absolute;
+    top: 19px;
+    left: 538px;
+    gap: var(--gap-21xl);
+    text-align: left;
+    font-size: var(--font-size-smi-7);
+    color: var(--f709c);
+    font-family: var(--font);
+  }

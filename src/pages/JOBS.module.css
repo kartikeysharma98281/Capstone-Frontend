@@ -6,7 +6,7 @@
   width: 137px;
   height: 16.79px;
   font-size: 14.89px;
-}
+} 
 .october152023 {
   position: absolute;
   top: 29px;
@@ -753,4 +753,39 @@
   font-size: var(--font-size);
   color: var(--f709c);
   font-family: var(--font);
+}
+
+
+.application-icon,
+.bookmarks-icon {
+  height: 19.7px;
+  width: 16px;
+  position: relative;
+  z-index: 1;
+}
+.application-icon {
+  height: 20.2px;
+  width: 20.2px;
+}
+.notifications-icon,
+.profile-icon {
+  height: 25px;
+  width: 19px;
+  position: relative;
+  z-index: 1;
+}
+.profile-icon {
+  height: 30px;
+  width: 30px;
+}
+.header,
+.monetization-data-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.monetization-data-frame {
+  width: 178px;
+  justify-content: flex-start;
+  gap: 0 31px;
 }
