@@ -1,0 +1,285 @@
+
+
+.frame-child {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+  }
+  .data-analyst-intern {
+    position: relative;
+    font-weight: 600;
+    font-size: 24.7px;
+    color: var(--f709c);
+  }
+  .techgen-innovations {
+    position: relative;
+    display: inline-block;
+    min-width: 124px;
+    /* font-size: 15.7px; */
+    color: #bababa;
+    bottom: 19px;
+    font-size: 14.5px;
+    top: -25px;
+  }
+  .data-analyst-intern-parent,
+  .techgen-innovations-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .techgen-innovations-wrapper {
+    flex-direction: row;
+    padding: 0 2px;
+    /* font-size: var(--font-size); */
+    color: var(--f709c);
+  }
+  .data-analyst-intern-parent {
+    flex-direction: column;
+    gap: 1px;
+    width: 703px;
+  }
+  .october-15-2023 {
+    position: relative;
+    display: inline-block;
+    min-width: 131px;
+  }
+  .october-15-2023-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 9px 0 0;
+    font-size: var(--font1-size);
+    color: var(--f709c);
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-xl);
+    width: 776px;
+    top: -552px;
+    position: relative;
+    left: 275px;
+  }
+  .ellipse-parent,
+  .frame-container,
+  .frame-group,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+    min-width: 310px;
+    top: 45px;
+    position: relative;
+  }
+  .ellipse-parent,
+  .frame-wrapper {
+    flex-direction: row;
+    max-width: 110%;
+  }
+  .ellipse-parent {
+    flex: 1;
+    gap: 16px;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    padding: 0 0 0 var(--padding-8xs);
+    box-sizing: border-box;
+    font-size: var(--font2-size);
+    height: 97px;
+    width: 105px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .analyze-and-interpret {
+    position: relative;
+  }
+  .analyze-and-interpret-data-to-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: var(--f709c);
+    top: -7px;
+    position: relative;
+  }
+  .monetization-on-icon {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    min-height: 23px;
+  }
+  .month {
+    position: relative;
+    display: inline-block;
+    min-width: 92px;
+  }
+  .monetization-on-parent,
+  .month-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .month-wrapper {
+    flex-direction: column;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .monetization-on-parent {
+    flex-direction: row;
+    gap: var(--gap-11xs);
+  }
+  .location-on-icon {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    min-height: 23px;
+  }
+  .new-york-city {
+    position: relative;
+    display: inline-block;
+    min-width: 107px;
+  }
+  .new-york-city-ny-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .location-on-parent {
+    flex-direction: row;
+    gap: var(--gap-11xs);
+    color: var(--color);
+  }
+  .frame-div,
+  .frame-parent,
+  .location-on-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex-direction: row;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-xl);
+    color: #1ec51a;
+    top: -41px;
+  }
+  .frame-parent {
+    width: 365px;
+    flex-direction: column;
+    gap: 13.5px;
+    max-width: 100%;
+    width: 422px;
+    padding-left: 13px;
+  }
+  .bookmark-icon {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    top: 16px;
+    left: 43px;
+  }
+  .bookmark-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 6.5px 0 6px;
+  }
+  .apply-now {
+    height: 24.2px;
+    position: relative;
+    font-size: 14.8px;
+    font-family: var(--font);
+    color: var(--fafafa);
+    text-align: left;
+    display: inline-block;
+    min-width: 72.6px;
+  }
+  .component-4 {
+    cursor: pointer;
+    border: 0;
+    padding: 5.9px 9.9px;
+    background-color: var(--color);
+    border-radius: 6.21px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    top: 63px;
+    position: relative;
+    right: 14px;
+  }
+  .component-4:hover {
+    background-color: #546987;
+  }
+  .frame-parent1,
+  .job-descrip,
+  .job-descrip-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    align-items: flex-end;
+    gap: 59px;
+  }
+  .job-descrip,
+  .job-descrip-inner {
+    align-items: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .job-descrip {
+    width: 62%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+    border: 0.5px solid var(--e5d283);
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px var(--padding-xl) 14px 16px;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size);
+    color: var(--color);
+    font-family: var(--font);
+    top: 140px;
+    position: relative;
+    border-color: #4F709C;
+    height: 162px;
+    border-color: #4F709C;
+    left: 416px;
+   
+  }
+  @media screen and (max-width: 525px) {
+    .job-descrip {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .data-analyst-intern {
+      font-size: 16px;
+    }
+    .ellipse-parent {
+      flex-wrap: wrap;
+    }
+  }
+  
+  

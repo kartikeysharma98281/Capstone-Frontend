@@ -1,0 +1,278 @@
+*{
+  font-family: "Baloo Tammudu 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.basic-detailsseeker {
+  width: 100%;
+  height: 713px;
+  position: relative;
+  background-color: var(--fafafa);
+  /* overflow-y: auto; */
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base-3);
+  color: var(--color);
+  font-family: var(--font);
+  text-align: center;
+}
+
+.college-abc,
+.degreemajor-btech,
+.name-john {
+  position: absolute;
+  margin: 0 !important;
+  font-weight: 600;
+  white-space: pre-wrap;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+}
+.name-john {
+  top: 276px;
+  left: 460px;
+  display: inline-block;
+  min-width: 115px;
+}
+.college-abc,
+.degreemajor-btech {
+  top: 663px;
+  left: 460px;
+  text-align: center;
+}
+.degreemajor-btech {
+  top: 594px;
+  left: 460px;
+  text-align: center;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.profile-photo {
+  height: 37px;
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.frame-item {
+  width: 17.8px;
+  height: 18px;
+  position: relative;
+}
+.frame-container {
+  height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.frame-wrapper,
+.profile-photo-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.profile-photo-parent {
+  justify-content: flex-start;
+  gap: 14px;
+}
+.frame-wrapper {
+  justify-content: flex-end;
+  padding: 0 35.2px 0 35px;
+}
+.date-of-birth,
+.ellipse-parent {
+  position: absolute;
+  margin: 0 !important;
+}
+.ellipse-parent {
+  height: 253px;
+  width: 207px;
+  top: 516px;
+  left: calc(50% - 621px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 16.3px;
+  color: #bababa;
+}
+.date-of-birth {
+  height: 19px;
+  top: 345.25px;
+  left: 460px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+}
+.cityregion-bhopal {
+  height: 21px;
+  top: 398.75px;
+  left: 460px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+}
+.cityregion-bhopal,
+.contact-number,
+.email-id {
+  position: absolute;
+  margin: 0 !important;
+  font-weight: 600;
+  white-space: pre-wrap;
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+
+}
+.contact-number {
+  height: 45px;
+  top: 452px;
+  left: 460px;
+  display: inline-block;
+  width: 273px;
+  color: black;
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    text-align: center;
+}
+.email-id {
+  top: 528px;
+  left: 460px;
+  text-align: center;
+}
+.description-it,
+.edit-profile {
+  font-weight: 600;
+  font-family: var(--font-baloo-tammudu-2);
+  text-align: left;
+  display: inline-block;
+  top: 464px;
+  border: 100px;
+  bottom: 335px;
+  padding-bottom: 64px;
+} 
+.description-it {
+  height: 163px;
+  width: 884px;
+  position: absolute;
+  margin: 0 !important;
+  top: 731px;
+  left: 460px;
+  font-size: var(--font-size-lgi-5);
+
+  white-space: pre-wrap;
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    background-color: #e9e9f2;
+    box-shadow: left;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.edit-profile {
+  position: relative;
+  font-size: 16.7px;
+  color: #fff;
+  min-width: 83px;
+}
+/* 
+.details{
+  border-radius: 8px;
+  padding: 7px;
+    /* margin: 17px; */
+    /* background-color: #e9e9f2;
+    box-shadow: left; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+/* } */ 
+
+.dashboard-logo{
+  height: 152px;
+    left: 586px;
+    position: relative;
+    top: 23px;
+}
+
+.logoButton{
+  display: flex;
+}
+
+.edit-button{
+  height: 52px;
+    width: 182px;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-items: center; */
+    background-color: #213555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    left: 1199px;
+    top: 284px;
+    position: absolute;
+}
+
+.edit-icon{
+  top: -35px;
+  position: relative;
+  left: 60px;
+}
+
+.details{
+  text-align: center;
+  /* align-items: center; */
+  /* display: flex; */
+  /* padding-bottom: 99px; */
+  margin: 47px;
+  top: -143px;
+  position: relative;
+}

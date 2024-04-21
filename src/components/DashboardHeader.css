@@ -1,0 +1,97 @@
+.dashboard-child {
+    height: 51px;
+    width: 1536px;
+    position: relative;
+    background-color: var(--celestial-hue-celestial-light);
+    border-bottom: 0.5px solid var(--e5d283);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .bookmarks-icon,
+  .dashboard-item {
+    height: 36px;
+    width: 71px;
+    position: relative;
+    z-index: 1;
+  }
+  .bookmarks-icon {
+    width: 16px;
+    height: 19.7px;
+  }
+  .bookmarks-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.6px 0 0;
+  }
+  .application-icon {
+    width: 20.2px;
+    height: 20.2px;
+    position: relative;
+    z-index: 1;
+  }
+  .application-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.4px 0 0;
+  }
+  .notifications-icon {
+    align-self: stretch;
+    width: 19px;
+    position: relative;
+    max-height: 100%;
+    min-height: 25px;
+    z-index: 1;
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .dashboard,
+  .dashboard-inner {
+    width: 117.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+    box-sizing: border-box;
+  }
+  .dashboard {
+    width: 100%;
+    position: relative;
+    background-color: var(--celestial-hue-celestial-light);
+    box-shadow: 0 3px 11px rgba(229, 210, 131, 0.07);
+    border-top: 1px solid var(--e5d283);
+    border-right: 1px solid var(--e5d283);
+    border-bottom: 0.5px solid var(--e5d283);
+    border-left: 1px solid var(--e5d283);
+    flex-direction: row;
+    padding: 12px 36px 3px;
+    gap: 1127px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1325px) {
+    .dashboard {
+      flex-wrap: wrap;
+      gap: 1127px 563px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .dashboard {
+      gap: 1127px 282px;
+    }
+  }
+  @media screen and (max-width: 450px) {@media screen and (max-width: 450px) {
+    .dashboard {
+      gap: 1127px 141px;
+    }
+  } }

@@ -5,6 +5,7 @@ const PORT = 5000;
 import mongoose from "mongoose";
 import { signup } from './components/auth.js';
 import { login } from './components/auth.js';
+import { getJobPost, jobPost } from "./components/jobPost.js";
 app.use(express.json());
 app.use(cors());
 
@@ -14,6 +15,8 @@ app.get('/home', (req, res)=>{
 
 app.post('/login', login);
 app.post('/signup', signup);
+app.post('/job-posting', jobPost); 
+app.get('/job-posting', getJobPost);
 
 mongoose
   .connect("mongodb+srv://KartikeySharma:2fGK3qbeWFpDPWyq@cluster0.ldptiit.mongodb.net/", {

@@ -92,6 +92,7 @@
     box-sizing: border-box;
     gap: 0 55px;
     max-width: 100%;
+    padding-top: 74px;
   }
   .work-nexus-is-designed-to-conn-parent {
     align-self: stretch;

@@ -19,7 +19,7 @@ const PortalPopup = ({
   const [relativeStyle, setRelativeStyle] = useState({
     opacity: 0,
   });
-  const popupStyle = useMemo(() => {
+  const popupStyle = useMemo(() => { 
     const style = {};
     style.zIndex = zIndex;
 

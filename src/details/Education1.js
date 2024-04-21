@@ -33,7 +33,7 @@ const Education1 = ({ frameTitle, frameDivTop }) => {
                   <div className="rectangle-div" style={{right: "104px"}}/>
                 </div>
                 <input
-                  className="role-in-the"
+                  className="role-in-the" 
                   placeholder="Role in the project"
                   type="text"
                   style={{right: "94px"}}

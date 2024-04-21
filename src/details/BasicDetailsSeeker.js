@@ -10,7 +10,7 @@ const BasicDetailsseeker = () => {
   const onEducationFrameClick = useCallback(() => {
     navigate("/educationseeker"); 
   }, [navigate]);
-
+ 
   const onGoBackTextClick = useCallback(() => {
     navigate("/"); 
   }, [navigate]);
@@ -31,7 +31,7 @@ const BasicDetailsseeker = () => {
               src="/border_color.png"
             />
           </div>
-        </div>
+        </div> 
       </div>
       <GroupComponent   /> 
       <button className="education-frame" onClick={onEducationFrameClick}>

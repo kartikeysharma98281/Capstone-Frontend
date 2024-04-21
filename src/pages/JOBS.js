@@ -1,19 +1,21 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import SignIn from "../components/SignIn";
 import PortalPopup from "../components/PortalPopup";
 import LogInPopup from "../components/LogInPopup";
 import styles from "./JOBS.module.css";
 import JobCard from "../components/JobCard";
+import axios from 'axios';
 
 const JOBS = () => {
   const [isSignInOpen, setSignInOpen] = useState(false);
   const [isLogInPopupOpen, setLogInPopupOpen] = useState(false);
+  const [JobsDetails, setJobsDetails] = useState([]);
 
   const openSignIn = useCallback(() => {
     setSignInOpen(true);
   }, []);
 
-  const closeSignIn = useCallback(() => {
+  const closeSignIn = useCallback(() => { 
     setSignInOpen(false);
   }, []);
 
@@ -24,10 +26,28 @@ const JOBS = () => {
   const closeLogInPopup = useCallback(() => {
     setLogInPopupOpen(false);
   }, []);
+ 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        console.log("Working for jobs");
+        const response = await axios.get('http://localhost:5000/job-posting')
+        // console.log(response.data[0]);
+        // console.log(typeof response.data);
+        setJobsDetails(response.data);
+        console.log("Jobdetails: ", JobsDetails);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+    fetchData(); 
+  }, []);
+
+
 
   return (
     <>
-      <div className={styles.jobs}>
+      <div className={styles.jobs} style={{overflowY: "hidden"}}>
        <JobCard
           name="TechGen Innovations"
           role="Data Analyst Intern"
@@ -35,9 +55,29 @@ const JOBS = () => {
           city="New York City, NY"
           salary="₹25000/month"
           description="Analyze and interpret data to provide actionable insights."
-          top="133px"
+          // top="133px" 
         />  
        <JobCard
+          name="TechGen Innovations"
+          role="Data Analyst Intern"
+          date="October 15, 2023"
+          city="New York City, NY"
+          salary="₹25000/month"
+          description="Analyze and interpret data to provide actionable insights."
+          // top="133px" 
+        />  
+          {/* {JobsDetails.map((job, index) => (
+          <JobCard
+            key={index}
+            name={job.organizationName}
+            role={job.title}
+            date={new Date()}
+            city={job.location}
+            salary={job.monthlyStipend}
+            description={job.description}
+          />
+        ))} */}
+       {/* <JobCard
           name="DataTech Solutions"
           role="Software Developer"
           date="November 5, 2023"
@@ -54,7 +94,7 @@ const JOBS = () => {
           salary="₹6 LPA"
           description="Assist in marketing campaigns and strategies."
           top="537px"
-        /> 
+        />  */}
         <div className={styles.exploreExcitingCareer}>
           Explore exciting career options!
         </div>
@@ -157,7 +197,7 @@ const JOBS = () => {
           placement="Centered"
           onOutsideClick={closeSignIn}
         >
-          <SignIn onClose={closeSignIn} />
+          <SignIn onClose={closeSignIn} /> 
         </PortalPopup>
       )}
       {isLogInPopupOpen && (

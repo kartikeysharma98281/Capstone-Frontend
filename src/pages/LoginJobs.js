@@ -4,13 +4,14 @@ import PortalPopup from "../components/PortalPopup";
 import LogInPopup from "../components/LogInPopup";
 import styles from "./JOBS.module.css";
 import JobCard from "../components/JobCard";
+import {useNavigate} from "react-router-dom";
 
 const JOBS = () => {
   const [isSignInOpen, setSignInOpen] = useState(false);
   const [isLogInPopupOpen, setLogInPopupOpen] = useState(false);
-
+  const navigate = useNavigate();
   const openSignIn = useCallback(() => {
-    setSignInOpen(true);
+    navigate("/candidate-dashboard")
   }, []);
 
   const closeSignIn = useCallback(() => {
@@ -66,6 +67,7 @@ const JOBS = () => {
               alt=""
               src="/profile.png"
               style={{ cursor: "pointer" , height: "24px"  , width: "24px"}}
+              onClick={openSignIn}
             />
           </div>
           <div className={styles.headerInner}>

@@ -1,0 +1,80 @@
+.content-area-child {
+    height: 36px;
+    width: 71px;
+    position: relative;
+  }
+  .dashboard1 {
+    position: relative;
+    font-weight: 600;
+  }
+  .content-area {
+    width: 778px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between; 
+    gap: var(--gap-xl);
+    max-width: 100%; 
+  }
+  .divider,
+  .main-container {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 11px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 29.3px;
+    color: var(--color);
+    font-family: var(--font);
+  }
+  .divider {
+    height: 0.5px;
+    position: relative;
+    box-shadow: 0 10px 11px rgba(229, 210, 131, 0.07);
+    background-color: var(--f709c);
+    border-top: 0.5px solid var(--e5d283);
+  }
+  .company-details-parent,
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .company-details-parent {
+    width: 1420px;
+    align-items: flex-start;
+    gap: var(--gap-7xl);
+    max-width: 100%;
+  }
+  .dashboard {
+    width: 100%;
+    position: relative;
+    background-color: var(--celestial-hue-celestial-light);
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 28px 52px 36px;
+    box-sizing: border-box;
+    gap: 41.8px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1050px) {
+    .dashboard {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .dashboard {
+      gap: var(--gap-2xl);
+    }
+  }
+  
+  

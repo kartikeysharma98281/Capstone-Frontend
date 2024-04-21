@@ -1,0 +1,94 @@
+.choose-your-role1 {
+    width: 139px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .choose-your-role-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1px 0 0;
+    
+  }
+  .for-candidates {
+    position: relative;
+    font-size: var(--font-size-sm-1);
+    font-weight: 600;
+    font-family: var(--font-segoe-ui);
+    color: var(--fafafa);
+    text-align: left;
+    display: inline-block;
+    min-width: 90px;
+  }
+  .password-inputs {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs-9) 37px var(--padding-xs-1);
+    background-color: var(--color);
+    border-radius: 2.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  /* .for-recruiter-wrapper:hover, */
+  /* .password-inputs:hover {
+    background-color: var(--color-slategray);
+  } */
+  .for-recruiter {
+    position: relative;
+    font-size: var(--font-size-sm-1);
+    font-weight: 600;
+    font-family: var(--font-segoe-ui);
+    color: var(--fafafa);
+    text-align: left;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .for-recruiter-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs-9) 43.5px var(--padding-xs-1);
+    background-color: var(--color);
+    border-radius: 2.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .choose-your-role,
+  .password-inputs-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 18px;
+  }
+  .choose-your-role {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 39px 46px 40px;
+    box-sizing: border-box;
+    gap: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color);
+    font-family: var(--font-segoe-ui);
+  }
+  @media screen and (max-width: 408px) {
+    .password-inputs-parent {
+      flex-wrap: wrap;
+    }
+  }
+  
+  

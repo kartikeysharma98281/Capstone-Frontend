@@ -15,6 +15,9 @@ import LoginJobs from "./pages/LoginJobs";
 import JobsDetails from "./pages/JobsDetails"
 import HiringProfile from "./hiring/HiringProfile";
 import JobPosting from "./hiring/JobPosting";
+import CandidateDashboard from "./components/CandidateDashboard";
+import RoleOptions from "./components/RoleOptions"
+import CompanyDashboard from "./components/CompanyDashboard";
 
 function App() {
   const action = useNavigationType();
@@ -64,6 +67,9 @@ function App() {
       <Route path="/job-details" element={<JobsDetails />} />
       <Route path="/job-posting" element={<JobPosting />} />
       <Route path="/hiring-profile" element={<HiringProfile />} />
+      <Route path="/candidate-dashboard" element={<CandidateDashboard />} />
+      <Route path="/role-options" element={<RoleOptions />} />
+      <Route path="/company-dashboard" element={<CompanyDashboard />} />
     </Routes>
   );
 }

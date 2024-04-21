@@ -1,0 +1,278 @@
+.location-container-icon {
+    height: 220px;
+    width: 220px;
+    position: relative;
+  }
+  .name-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .edit-profile {
+    position: relative;
+    font-size: var(--font-size-base-7);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--celestial-hue-celestial-light);
+    text-align: left;
+    display: inline-block;
+    min-width: 83px;
+  }
+  .profile-icon {
+    width: 5.8px;
+    height: 11.6px;
+    position: relative;
+  }
+  .profile-icon-area,
+  .skills-and-project-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-2) 0 0;
+  }
+  .skills-and-project-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs-4) var(--padding-37xl);
+    background-color: var(--color);
+    border-radius: 3.96px;
+    flex-direction: row;
+    gap: var(--gap-base);
+  }
+  .contact-91-4858937584,
+  .eim-35937384,
+  .location-new,
+  .mail-techgengmailcom,
+  .name-techgen {
+    position: relative;
+    font-weight: 600;
+  }
+  .company-description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .company-intro,
+  .contact-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-base-8) 0 0;
+  }
+  .contact-details {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-57xl);
+    gap: var(--gap-4xl-2);
+  }
+  .frame-child {
+    height: 33px;
+    width: 155px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--color);
+    display: none;
+  }
+  .job-openings {
+    position: relative;
+    font-size: var(--font-size-base-7);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--celestial-hue-celestial-light);
+    text-align: left;
+    display: inline-block;
+    min-width: 104px;
+    z-index: 1;
+    left: 32px;
+  }
+  .contact-info,
+  .contact-info-area,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-4xl) var(--padding-6xs);
+    background-color: var(--color);
+    width: 155px;
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    box-sizing: border-box;
+    white-space: nowrap;
+    height: 33px;
+    width: 155px;
+    color: white;
+    align-items: center;
+    border-radius: 3px;
+  }
+  
+  .contact-info,
+  .contact-info-area {
+    flex-direction: column;
+  }
+  .contact-info {
+    align-self: stretch;
+    gap: var(--gap-24xl);
+  }
+  .contact-info-area {
+    width: 281px;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .post-job {
+    position: relative;
+    font-size: var(--font-size-base-7);
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--celestial-hue-celestial-light);
+    text-align: left;
+    display: inline-block;
+    min-width: 64px;
+    left: 45px;
+  }
+  .company-info-icon {
+    width: 5.8px;
+    height: 11.6px;
+    position: relative;
+  }
+  .company-logo,
+  .skills-and-project-button1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-2) 0 0;
+  }
+  .skills-and-project-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs-4) var(--padding-37xl);
+    background-color: var(--color);
+    border-radius: 3.96px;
+    flex-direction: row;
+    gap: var(--gap-base);
+    height: 33px;
+    width: 155px;
+    color: white;
+    align-items: center;
+  }
+  .about-us-child {
+    width: 1016px;
+    height: 512px;
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-whitesmoke);
+    display: none;
+    max-width: 100%;
+  }
+  .about-company- {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .techgen-innovations-is {
+    width: 874px;
+    position: relative;
+    font-size: var(--font-size-lgi-5);
+    color: var(--f709c);
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+    text-align: justify;
+  }
+  .about-us {
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-whitesmoke);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-mid) var(--padding-lgi) var(--padding-334xl);
+    box-sizing: border-box;
+    gap: var(--gap-2xs);
+    max-width: 100%;
+  }
+  .about-us,
+  .company-actions,
+  .company-details {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .company-actions {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-23xl-2);
+    max-width: calc(100% - 404px);
+  }
+  .company-details {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-104xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font2-size);
+    color: var(--color);
+    font-family: var(--font);
+  }
+  @media screen and (max-width: 1200px) {
+    .company-details {
+      gap: var(--gap-42xl);
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .contact-info-area {
+      display: none;
+    }
+    .company-actions {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .about-us {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-210xl);
+      box-sizing: border-box;
+    }
+    .company-actions {
+      gap: var(--gap-2xl);
+    }
+    .company-details {
+      gap: var(--gap-12xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-91-4858937584,
+    .eim-35937384,
+    .location-new,
+    .mail-techgengmailcom,
+    .name-techgen {
+      font-size: var(--font-size-base);
+    }
+    .contact-info {
+      gap: var(--gap-2xl);
+    }
+    .about-company- {
+      font-size: var(--font-size-base);
+    }
+    .company-details {
+      gap: var(--gap-mini);
+    }
+  }
+  
+  
+
+  
