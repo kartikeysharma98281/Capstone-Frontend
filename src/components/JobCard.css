@@ -1,5 +1,3 @@
-
-
 .frame-child {
     height: 65px;
     width: 65px;
@@ -9,20 +7,21 @@
   }
   .data-analyst-intern {
     position: relative;
-    font-weight: 600;
+    font-weight: 600; 
     font-size: 24.7px;
     color: var(--f709c);
   }
   .techgen-innovations {
     position: relative;
     display: inline-block;
-    min-width: 124px;
-    /* font-size: 15.7px; */
+    min-width: 124px; 
+     font-size: 15.7px;
     color: #bababa;
     bottom: 19px;
     font-size: 14.5px;
     top: -25px;
   }
+
   .data-analyst-intern-parent,
   .techgen-innovations-wrapper {
     display: flex;
@@ -32,7 +31,7 @@
   .techgen-innovations-wrapper {
     flex-direction: row;
     padding: 0 2px;
-    /* font-size: var(--font-size); */
+    font-size: var(--font-size);
     color: var(--f709c);
   }
   .data-analyst-intern-parent {
@@ -66,7 +65,7 @@
   .ellipse-parent,
   .frame-container,
   .frame-group,
-  .frame-wrapper {
+  .frame-wrapperj {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -81,7 +80,7 @@
     position: relative;
   }
   .ellipse-parent,
-  .frame-wrapper {
+  .frame-wrapperj {
     flex-direction: row;
     max-width: 110%;
   }
@@ -89,7 +88,7 @@
     flex: 1;
     gap: 16px;
   }
-  .frame-wrapper {
+  .frame-wrapperj {
     align-self: stretch;
     padding: 0 0 0 var(--padding-8xs);
     box-sizing: border-box;
@@ -282,4 +281,8 @@
     }
   }
   
+
+   
+
+
   

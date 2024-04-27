@@ -33,8 +33,10 @@
     padding: 6.400000000000091px var(--padding-37xl) 6.399999999999864px;
     background-color: var(--color);
     position: absolute;
-    top: 658px;
-    left: 704px;
+    /* top: 658px;
+    left: 704px; */
+    top: 108px;
+    left: 1328px;
     border-radius: 3.96px;
     display: flex;
     flex-direction: row;

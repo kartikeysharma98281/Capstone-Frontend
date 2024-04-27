@@ -64,6 +64,7 @@
     justify-content: flex-start;
     padding: 1px 0 0;
     box-sizing: border-box;
+    flex-direction: row;
   }
   .dashboard {
     width: 100%;
@@ -78,6 +79,7 @@
     padding: 12px 36px 3px;
     gap: 1127px;
     letter-spacing: normal;
+    /* flex-direction: row; */
   }
   @media screen and (max-width: 1325px) {
     .dashboard {

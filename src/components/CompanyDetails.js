@@ -21,7 +21,7 @@ const CompanyDetails = () => {
               alt=""
               src="/frame-44.svg"
             /> */}
-            <span style={{ height: "214px" ,width: "214px" ,backgroundColor: "#bbb",borderRadius: "50%",display: "inline-block" , right:"57px" ,position: "relative" ,top: "-36px"}}></span>
+            <span style={{ height: "200px" ,width: "200px" ,backgroundColor: "#bbb",borderRadius: "50%",display: "inline-block" , right:"57px" ,position: "relative" ,top: "-88px"}}></span>
           </div>
           <div className="contact-details">
             <button
@@ -52,7 +52,7 @@ const CompanyDetails = () => {
             <div className="job-openings">{`Job Openings `}</div>
           </button>
         </div>
-      </div>
+      </div> 
       <div className="company-actions">
         <button
           className="skills-and-project-button1"

@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import "./CandidateDashboard.css";
-import DashboardHeader from "./DashboardHeader";
+// import DashboardHeader from "./DashboardHeader";
+import Headers from "../pages/Headers"
 
 const CandidateDashboard = () => {
   const onSkillsAndProjectButtonClick = useCallback(() => {
@@ -8,7 +9,7 @@ const CandidateDashboard = () => {
   }, []);
 
   return (<>
-    <DashboardHeader />
+    <Headers />
     <div>
     <div className="logoButton">
     <img  src="./group-2.png" className="dashboard-logo"/>
@@ -24,7 +25,7 @@ const CandidateDashboard = () => {
             alt=""
             src="Frame 32.png"
           />
-        </div>
+        </div> 
       </button>
       </div>
     <div className="details">
@@ -39,8 +40,8 @@ const CandidateDashboard = () => {
       <section className="description-it">{`Description  :  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.   `}</section>
       </div>
       <div className="ellipse-parent">
-        <div className="frame-child" style={{width: "201px"}} />
-        <div className="frame-wrapper">
+        {/* <div className="frame-child" style={{width: "201px"}} /> */}
+        <span className="dot"></span>
           <div className="profile-photo-parent">
             <div className="profile-photo">Profile photo</div>
             <div className="frame-container">
@@ -52,7 +53,6 @@ const CandidateDashboard = () => {
               />
             </div>
           </div> 
-        </div>
       </div>
       
       {/* <div style={{paddingBottom: "34px"}}>

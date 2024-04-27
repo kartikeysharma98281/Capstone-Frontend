@@ -1,14 +1,23 @@
 import UserLogin from '../models/Login.js'
 import UserSignUp from '../models/Signup.js';
+import zod from 'zod';
 
 /* SIGNUP */
+const signupValidation = zod.object({
+  email: zod.string().email(),
+  password: zod.string().min(6),
+  confirm_password: zod.string().min(6),
+})
 export const signup = async (req, res) => {
  try {
   //  console.log("from server", req.body);
    const {
     email, password, confirm_password
    } = req.body;
-   
+   const isValidInput = signupValidation.safeParse(req.body);
+   if(!isValidInput.success){
+     return res.status(400).json({msg : "INVALID INPUTS"});
+   }
    if(password !== confirm_password){
     res.status(400).json({msg : "Password didn't matched"})
    }

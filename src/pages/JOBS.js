@@ -4,7 +4,8 @@ import PortalPopup from "../components/PortalPopup";
 import LogInPopup from "../components/LogInPopup";
 import styles from "./JOBS.module.css";
 import JobCard from "../components/JobCard";
-import axios from 'axios';
+import axios from "axios";
+import { Link } from "react-router-dom";
 
 const JOBS = () => {
   const [isSignInOpen, setSignInOpen] = useState(false);
@@ -15,7 +16,7 @@ const JOBS = () => {
     setSignInOpen(true);
   }, []);
 
-  const closeSignIn = useCallback(() => { 
+  const closeSignIn = useCallback(() => {
     setSignInOpen(false);
   }, []);
 
@@ -26,58 +27,63 @@ const JOBS = () => {
   const closeLogInPopup = useCallback(() => {
     setLogInPopupOpen(false);
   }, []);
- 
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         console.log("Working for jobs");
-        const response = await axios.get('http://localhost:5000/job-posting')
+        const response = await axios.get("http://localhost:5000/job-posting");
         // console.log(response.data[0]);
         // console.log(typeof response.data);
         setJobsDetails(response.data);
         console.log("Jobdetails: ", JobsDetails);
       } catch (error) {
-        console.error('Error:', error);
+        console.error("Error:", error);
       }
     };
-    fetchData(); 
+    fetchData();
   }, []);
-
-
 
   return (
     <>
-      <div className={styles.jobs} style={{overflowY: "hidden"}}>
-       <JobCard
-          name="TechGen Innovations"
-          role="Data Analyst Intern"
-          date="October 15, 2023"
-          city="New York City, NY"
-          salary="₹25000/month"
-          description="Analyze and interpret data to provide actionable insights."
-          // top="133px" 
-        />  
-       <JobCard
-          name="TechGen Innovations"
-          role="Data Analyst Intern"
-          date="October 15, 2023"
-          city="New York City, NY"
-          salary="₹25000/month"
-          description="Analyze and interpret data to provide actionable insights."
-          // top="133px" 
-        />  
-          {/* {JobsDetails.map((job, index) => (
-          <JobCard
-            key={index}
-            name={job.organizationName}
-            role={job.title}
-            date={new Date()}
-            city={job.location}
-            salary={job.monthlyStipend}
-            description={job.description}
+      
+        <div style={{ gap: "26px", display: "flex", flexDirection: "column", marginTop : "16%" }}>
+          {/* <JobCard
+            name="TechGen Innovations"
+            role="Data Analyst Intern"
+            date="October 15, 2023"
+            city="New York City, NY"
+            salary="₹25000/month"
+            description="Analyze and interpret data to provide actionable insights."
+            // top="133px"
           />
-        ))} */}
-       {/* <JobCard
+          <JobCard
+            name="TechGen Innovations"
+            role="Data Analyst Intern"
+            date="October 15, 2023"
+            city="New York City, NY"
+            salary="₹25000/month"
+            description="Analyze and interpret data to provide actionable insights."
+            // top="133px"
+          /> */}
+        {JobsDetails.length > 0 && JobsDetails.map(({ organizationName, title, location, monthlyStipend, description }, index) => {
+    const jobDate = new Date(); // Assuming this is where you handle job date
+    const formattedDate = jobDate.toDateString(); // Convert the Date object to a string
+    return (
+        <JobCard
+            key={index}
+            name={organizationName}
+            role={title}
+            date={formattedDate} // Pass the formatted date string as a prop
+            city={location}
+            salary={monthlyStipend}
+            description={description}
+        />
+    );
+})}
+
+
+        {/* <JobCard
           name="DataTech Solutions"
           role="Software Developer"
           date="November 5, 2023"
@@ -97,6 +103,7 @@ const JOBS = () => {
         />  */}
         <div className={styles.exploreExcitingCareer}>
           Explore exciting career options!
+          
         </div>
         <div className={styles.header}>
           <div className={styles.headerChild} />
@@ -136,7 +143,9 @@ const JOBS = () => {
         </div>
         <div className={styles.jobsParent}>
           <div className={styles.jobs1}>
-            <div className={styles.lpa}>Jobs</div>
+            <Link to="/jobs" className={styles.lpa}>
+              Jobs
+            </Link>
           </div>
           <div className={styles.jobs1}>
             <div className={styles.lpa}>Skill tests</div>
@@ -197,7 +206,7 @@ const JOBS = () => {
           placement="Centered"
           onOutsideClick={closeSignIn}
         >
-          <SignIn onClose={closeSignIn} /> 
+          <SignIn onClose={closeSignIn} />
         </PortalPopup>
       )}
       {isLogInPopupOpen && (

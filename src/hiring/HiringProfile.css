@@ -236,6 +236,9 @@
     position: relative;
     display: inline-block;
     min-width: 94px;
+    left: 375px;
+    width: 259px;
+    top: 209px;
   }
   .frame-inner {
     width: 17.8px;
@@ -251,6 +254,8 @@
     justify-content: flex-start;
     padding: 4px 0 0;
     box-sizing: border-box;
+        left: 279px;
+    top: 209px;
   }
   .frame-wrapper,
   .profile-photo-parent {
@@ -265,6 +270,10 @@
   .frame-wrapper {
     justify-content: flex-end;
     padding: 0 38.19999999999982px 0 41px;
+    position: relative;
+    bottom: 345px;
+    height: 207px;
+    width: 207px;
   }
   .ellipse-parent {
     position: absolute;

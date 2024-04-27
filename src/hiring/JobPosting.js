@@ -22,7 +22,7 @@ const PostAJob = () => {
   //   try {
       
   //     console.log(title, description, requirements, organizationName, monthlyStipend, location);
-
+ 
   //     const response = await axios.post('http://localhost:5000/job-posting', {
   //       title,
   //       description,

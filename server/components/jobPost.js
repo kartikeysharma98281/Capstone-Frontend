@@ -21,7 +21,7 @@ export const jobPost = async (req, res) => {
             monthlyStipend, 
             location,
         });
-
+ 
         const savedJobPost = await newJobPost.save();
 
         res.status(201).json(savedJobPost);
@@ -38,4 +38,4 @@ export const getJobPost = async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
-}
+} 

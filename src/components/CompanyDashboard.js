@@ -20,6 +20,16 @@ const CompanyDashboard = () => {
       <main className="company-details-parent">
         <CompanyDetails />
         {/* <JobListings /> */}
+        <div style={
+          {
+            width: "100%", // Adjust as needed
+  display: "grid",
+  gridTemplateColumns: "repeat(2, 1fr)", // Two columns
+  gap: "17px",
+  padding: "10px",
+  margin: "0px"
+          }
+        }>
         <JobCard
           name="TechGen Innovations"
           role="Data Analyst Intern"
@@ -27,8 +37,27 @@ const CompanyDashboard = () => {
           city="New York City, NY"
           salary="₹25000/month"
           description="Analyze and interpret data to provide actionable insights."
-          // top="133px" 
+          // top="133px"  
         />
+        <JobCard
+          name="TechGen Innovations"
+          role="Data Analyst Intern"
+          date="October 15, 2023"
+          city="New York City, NY"
+          salary="₹25000/month"
+          description="Analyze and interpret data to provide actionable insights."
+          // top="133px"  
+        />
+        <JobCard
+          name="TechGen Innovations"
+          role="Data Analyst Intern"
+          date="October 15, 2023"
+          city="New York City, NY"
+          salary="₹25000/month"
+          description="Analyze and interpret data to provide actionable insights."
+          // top="133px"  
+        />
+        </div>
       </main>
     </div>
   );

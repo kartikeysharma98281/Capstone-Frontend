@@ -4,7 +4,7 @@ const Headers = () => {
   return (
     <header className="header" style={{height: "51px"}}>
       <div className="header-child" />
-      <div className="nexus-text">
+      <div className="nexus-text"> 
         <div className="line">
           {/* <div className="nexus">Nexus</div> 
           <div className="jobs-educate-frame" />

@@ -13,16 +13,16 @@ const BasicDetailsseeker = () => {
  
   const onGoBackTextClick = useCallback(() => {
     navigate("/"); 
-  }, [navigate]);
+  }, [navigate]); 
  
   return (
     <div className="basic-detailsseeker">
-      <div className="lets-get-you" style={{top:"181px"}}>Let’s get you started</div>
+      <div className="lets-get-you">Let’s get you started</div>
       <div className="group" />
       <div className="first-name-frame-parent">
-        <div className="first-name-frame" style={{top:"68px"}} />
+        {/* <div className="first-name-frame"  /> */}
         <div className="frame-wrapper">
-          <div className="profile-photo-parent" style={{top: "45px" , position: "relative"}}>
+          <div className="profile-photo-parent">
             <div className="profile-photo">Profile photo</div>
             <img
               className="group-icon"

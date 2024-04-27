@@ -9,7 +9,7 @@ const Education = ({ prop, propTop, propLeft }) => {
     };
   }, [propTop, propLeft]);
  
-  return (
+  return ( 
     <section className="education-2" style={education2Style}>
       {/* <div className="div1">{prop=='2': <img src="/2.png" /> ? <img src="/3.png">}</div> */}
       <div className="div1">{prop === '2' ? <img src="/2.png" /> : <img src="/3.png" />}</div>

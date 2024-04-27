@@ -18,6 +18,7 @@ import JobPosting from "./hiring/JobPosting";
 import CandidateDashboard from "./components/CandidateDashboard";
 import RoleOptions from "./components/RoleOptions"
 import CompanyDashboard from "./components/CompanyDashboard";
+import JobCard from "./components/JobCard";
 
 function App() {
   const action = useNavigationType();
@@ -70,6 +71,7 @@ function App() {
       <Route path="/candidate-dashboard" element={<CandidateDashboard />} />
       <Route path="/role-options" element={<RoleOptions />} />
       <Route path="/company-dashboard" element={<CompanyDashboard />} />
+      <Route path="/job-card" element={<JobCard />} />
     </Routes>
   );
 }

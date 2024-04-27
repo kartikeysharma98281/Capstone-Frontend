@@ -19,6 +19,8 @@
     text-align: left;
     display: inline-block;
     min-width: 83px;
+    left: 42px;
+    top: 9px;
   }
   .profile-icon {
     width: 5.8px;
@@ -32,6 +34,11 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding: var(--padding-7xs-2) 0 0;
+    top: 329px;
+    left: 74px;
+    height: 33px;
+    width: 155px;
+    color: white;
   }
   .skills-and-project-button {
     cursor: pointer;
@@ -41,6 +48,7 @@
     border-radius: 3.96px;
     flex-direction: row;
     gap: var(--gap-base);
+
   }
   .contact-91-4858937584,
   .eim-35937384,

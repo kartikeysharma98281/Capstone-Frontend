@@ -6,7 +6,7 @@ const HiringProfile = () => {
   const navigate = useNavigate();
 
   const ToJobPosting = useCallback(()=>{
-    navigate("/job-posting")
+    navigate("/company-dashboard")
   } , [navigate])
 
   const ToMainPage = useCallback(()=>{
@@ -17,21 +17,24 @@ const HiringProfile = () => {
     <div className="hiring-profile">
       <div className="complete-you-hiring">Complete you hiring profile</div>
       <div className="hiring-profile-child" />
-      <button className="skills-and-project-button" onClick={ToJobPosting}>
-        <div className="post-job" style={{width: "117.82px" , height: "53.79px"  ,fontSize: "13.65px" ,color: "white" , left: "34px" ,top: "8px"}}>Post job</div>
+      <div>
+      <button className="skills-and-project-button" style={{top: "663px" ,left: "714px"}} onClick={ToJobPosting}>
+        <div className="post-job" style={{width: "117.82px" , height: "53.79px"  ,fontSize: "13.65px" ,color: "white" , left: "34px" ,top: "8px"}}>Dasboard</div>
         <div className="skills-and-project-button-inner">
           <img className="frame-child" alt="" src="/Frame 32.png"  />
         </div>
       </button>
-      <div className="go-back" onClick={ToMainPage}>Go back</div>
+      <div className="go-back" onClick={ToMainPage}>Go back</div> 
       <img
         className="hiring-profile-item"
         loading="lazy"
         alt=""
         src="/group-2.png"
       />
+      </div>
       <div className="education-1">
         <div className="frame-parent">
+        <div style={{display: "flex" ,gap: "34px" , left: "-12px" , position: "relative"}}>
           <div className="component-6-parent">
             <div className="component-6">
               <div className="component-6-child" />
@@ -49,6 +52,7 @@ const HiringProfile = () => {
               type="text"
             />
           </div>
+         </div>
         </div>
         <textarea
           className="education-1-child"
@@ -66,8 +70,8 @@ const HiringProfile = () => {
       </div>
       <div className="about-yourself">About yourself</div>
       <div className="ellipse-parent">
-        <div className="frame-item" />
-        <div className="frame-wrapper">
+        {/* <div className="frame-item" /> */}
+        <div className="frame-wrapperj">
           <div className="profile-photo-parent">
             <div className="profile-photo">Profile photo</div>
             <div className="frame-container">

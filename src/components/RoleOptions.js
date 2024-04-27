@@ -1,16 +1,20 @@
 import { useCallback } from "react";
 import "./RoleOptions.css";
+import { useNavigate } from "react-router-dom";
 
 const RoleOptions = () => {
+  const navigate = useNavigate();
   const onPasswordInputsClick = useCallback(() => {
     // Please sync "Basic details(seeker)" to the project
-  }, []);
+    navigate("/basic-details-seeker");
+  }, [navigate]);
 
   const onFrameButtonClick = useCallback(() => {
     // Please sync "Hiring profile" to the project
-  }, []);
+    navigate("/hiring-profile")
+  }, [navigate]);
 
-  return (
+  return ( 
     <div className="choose-your-role" >
       <div className="choose-your-role-wrapper">
         <div className="choose-your-role1">Choose your role</div>
