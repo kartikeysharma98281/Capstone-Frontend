@@ -42,45 +42,33 @@ const JOBS = () => {
       }
     };
     fetchData();
-  }, []);
+    const intervalId = setInterval(fetchData, 3000);
+    return () => clearInterval(intervalId);
+  }, [1000]);
 
   return (
     <>
       
-        <div style={{ gap: "26px", display: "flex", flexDirection: "column", marginTop : "16%" }}>
-          {/* <JobCard
-            name="TechGen Innovations"
-            role="Data Analyst Intern"
-            date="October 15, 2023"
-            city="New York City, NY"
-            salary="₹25000/month"
-            description="Analyze and interpret data to provide actionable insights."
-            // top="133px"
-          />
-          <JobCard
-            name="TechGen Innovations"
-            role="Data Analyst Intern"
-            date="October 15, 2023"
-            city="New York City, NY"
-            salary="₹25000/month"
-            description="Analyze and interpret data to provide actionable insights."
-            // top="133px"
-          /> */}
-        {JobsDetails.length > 0 && JobsDetails.map(({ organizationName, title, location, monthlyStipend, description }, index) => {
-    const jobDate = new Date(); // Assuming this is where you handle job date
-    const formattedDate = jobDate.toDateString(); // Convert the Date object to a string
-    return (
-        <JobCard
-            key={index}
-            name={organizationName}
-            role={title}
-            date={formattedDate} // Pass the formatted date string as a prop
-            city={location}
-            salary={monthlyStipend}
-            description={description}
-        />
-    );
-})}
+      <div style={{ gap: "26px", display: "flex", flexDirection: "column", marginTop: "16%" }}>
+        {JobsDetails.length > 0 ? (
+          JobsDetails.map(({ organizationName, title, location, monthlyStipend, description }, index) => {
+            const jobDate = new Date(); // Assuming this is where you handle job date
+            const formattedDate = jobDate.toDateString(); // Convert the Date object to a string
+            return (
+              <JobCard
+                key={index}
+                name={organizationName}
+                role={title}
+                date={formattedDate} // Pass the formatted date string as a prop
+                city={location}
+                salary={monthlyStipend}
+                description={description}
+              />
+            );
+          })
+        ) : (
+          <div>No jobs available</div>
+        )}
 
 
         {/* <JobCard
