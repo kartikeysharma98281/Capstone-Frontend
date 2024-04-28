@@ -1,18 +1,45 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { useUserContext } from "../UserContext";
+import { useState, useEffect } from "react";
+
 
 
 const BasicDetailsseeker1 = () => {
   const navigate = useNavigate();
+  const { userInfo, setUserInfo } = useUserContext();
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [dateOfBirth, setDateOfBirth] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [city, setCity] = useState("");
+  const [email, setEmail] = useState("");
+  const [description, setDescription] = useState("");
+
   const onFrameContainerClick = useCallback(() => {
-    // Please sync "education(seeker)" to the project
-    navigate("/educationseeker");
+    handleSave();
   }, [navigate]);
 
+  const handleSave = async () => {
+    await setUserInfo({
+    ...userInfo,
+    firstname: firstName,
+    lastname: lastName,
+    date: dateOfBirth,
+    contact: contactNumber,
+    city: city,
+    email: email,
+    disc: description,
+  });
+  console.log(userInfo);
+  navigate("/educationseeker");
+};
+
+
   const onGoBackTextClick = useCallback(() => {
-    // Please sync "Splash screen" to the project
-    navigate("/jobs"); 
+    navigate("/jobs");
   }, [navigate]);
+
 
   return (
     <div className="w-full relative bg-fafafa h-[713px] overflow-y-auto flex flex-row flex-wrap items-center justify-start pt-5 pb-[200px] pr-[42px] pl-[63px] box-border gap-[43px_102px] text-left text-base-3 text-silver-100 font-font">
@@ -40,6 +67,9 @@ const BasicDetailsseeker1 = () => {
             placeholder="First name"
             className="w-full h-full p-2 bg-transparent border-[0.8px] border-solid border-silver-100 outline-none text-base-3"
             style={{ position: "absolute", top: "0", left: "0", zIndex: "8" }}
+            value={firstName}
+            onChange={(e) => {setFirstName(e.target.value)
+            }}
           />
         </div>
 
@@ -48,6 +78,8 @@ const BasicDetailsseeker1 = () => {
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-fafafa box-border border-[0.8px] border-solid border-silver-100" />
           <textarea
             placeholder="Short description about yourself"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
             className="absolute inline-block  w-[622px] h-[157px] right-[7px] bg-transparent border-none outline-none"
           ></textarea>
         </div>
@@ -56,6 +88,8 @@ const BasicDetailsseeker1 = () => {
           <input
             type="date"
             placeholder="Date of Birth"
+            value={dateOfBirth}
+            onChange={(e) => setDateOfBirth(e.target.value)}
             className="w-full h-full p-2 bg-transparent border-[0.8px] border-solid border-silver-100 outline-none text-base-3"
             style={{ position: "absolute", top: "0", left: "0", zIndex: "8" }}
           />
@@ -69,6 +103,8 @@ const BasicDetailsseeker1 = () => {
           <input
             type="email"
             placeholder="Email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-full h-full p-2 bg-transparent border-[0.8px] border-solid border-silver-100 outline-none text-base-3"
             style={{ position: "absolute", top: "0", left: "0", zIndex: "8" }}
           />
@@ -78,6 +114,8 @@ const BasicDetailsseeker1 = () => {
           <input
             type="email"
             placeholder="City/Region"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
             className="w-full h-full p-2 bg-transparent border-[0.8px] border-solid border-silver-100 outline-none text-base-3"
             style={{ position: "absolute", top: "0", left: "0", zIndex: "8" }}
           />
@@ -87,6 +125,8 @@ const BasicDetailsseeker1 = () => {
           <input
             type="text"
             placeholder="Last name"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
             className="w-full h-full p-2 bg-transparent border-[0.8px] border-solid border-silver-100 outline-none text-base-3"
             style={{ position: "absolute", top: "0", left: "0", zIndex: "8" }}
           />
@@ -97,6 +137,8 @@ const BasicDetailsseeker1 = () => {
           <div className="absolute top-[0px] left-[0px] w-[242px] h-11">
             <input
               type="text"
+              value={contactNumber}
+            onChange={(e) => setContactNumber(e.target.value)}
               className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-fafafa box-border border-[0.8px] border-solid border-silver-100"
               placeholder="Contact number"
             />

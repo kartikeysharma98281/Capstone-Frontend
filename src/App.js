@@ -7,18 +7,19 @@ import {
 } from "react-router-dom";
 import JOBS from "./pages/JOBS";
 import SplashScreen from "./components/SplashScreen";
-import BasicDetailsSeeker from "./details/BasicDetailsSeeker"
-import SkillsAndProjectsSeeker from "./details/SkillsAndProjectsSeeker"
+import BasicDetailsSeeker from "./details/BasicDetailsSeeker";
+import SkillsAndProjectsSeeker from "./details/SkillsAndProjectsSeeker";
 import Educationseeker from "./details/EducationSeeker";
 import ResumeAndPortfolioSeeker from "./details/ResumeAndPortfolioSeeker";
 import LoginJobs from "./pages/LoginJobs";
-import JobsDetails from "./pages/JobsDetails"
+import JobsDetails from "./pages/JobsDetails";
 import HiringProfile from "./hiring/HiringProfile";
 import JobPosting from "./hiring/JobPosting";
 import CandidateDashboard from "./components/CandidateDashboard";
-import RoleOptions from "./components/RoleOptions"
+import RoleOptions from "./components/RoleOptions";
 import CompanyDashboard from "./components/CompanyDashboard";
 import JobCard from "./components/JobCard";
+import { UserProvider } from "./UserContext";
 
 function App() {
   const action = useNavigationType();
@@ -57,22 +58,30 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<SplashScreen />} />
-      <Route path="/jobs" element={<JOBS />} />
-      <Route path='/basic-details-seeker' element={<BasicDetailsSeeker />} />
-      <Route path="/educationseeker" element={<Educationseeker />} />
-      <Route path="/skills-and-projects-seeker" element={<SkillsAndProjectsSeeker />} />
-      <Route path="/resume-and-portfolio-seeker" element={<ResumeAndPortfolioSeeker />} />
-      <Route path="/login-jobs" element={<LoginJobs />} />
-      <Route path="/job-details" element={<JobsDetails />} />
-      <Route path="/job-posting" element={<JobPosting />} />
-      <Route path="/hiring-profile" element={<HiringProfile />} />
-      <Route path="/candidate-dashboard" element={<CandidateDashboard />} />
-      <Route path="/role-options" element={<RoleOptions />} />
-      <Route path="/company-dashboard" element={<CompanyDashboard />} />
-      <Route path="/job-card" element={<JobCard />} />
-    </Routes>
+    <UserProvider>
+      <Routes>
+        <Route path="/" element={<SplashScreen />} />
+        <Route path="/jobs" element={<JOBS />} />
+        <Route path="/basic-details-seeker" element={<BasicDetailsSeeker />} />
+        <Route path="/educationseeker" element={<Educationseeker />} />
+        <Route
+          path="/skills-and-projects-seeker"
+          element={<SkillsAndProjectsSeeker />}
+        />
+        <Route
+          path="/resume-and-portfolio-seeker"
+          element={<ResumeAndPortfolioSeeker />}
+        />
+        <Route path="/login-jobs" element={<LoginJobs />} />
+        <Route path="/job-details" element={<JobsDetails />} />
+        <Route path="/job-posting" element={<JobPosting />} />
+        <Route path="/hiring-profile" element={<HiringProfile />} />
+        <Route path="/candidate-dashboard" element={<CandidateDashboard />} />
+        <Route path="/role-options" element={<RoleOptions />} />
+        <Route path="/company-dashboard" element={<CompanyDashboard />} />
+        <Route path="/job-card" element={<JobCard />} />
+      </Routes>
+    </UserProvider>
   );
 }
 export default App;
