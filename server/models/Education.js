@@ -2,37 +2,32 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const EducationSchema = new Schema({
-      institution: { 
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-      city:{
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-      passingYear:{
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-      titleOfDegree:{
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-      nameOfEducationBoard:{
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-      percentage:{
-        tenth: { type: String },
-        twelth: { type: String },
-        college: { type: String },
-      },
-
+	institution: {
+		tenth: {
+			name: { type: String },
+			city: { type: String },
+			passingYear: { type: String },
+			titleOfDegree: { type: String },
+			nameOfEducationBoard: { type: String },
+			percentage: { type: String },
+		},
+		twelfth: {
+			name: { type: String },
+			city: { type: String },
+			passingYear: { type: String },
+			titleOfDegree: { type: String },
+			nameOfEducationBoard: { type: String },
+			percentage: { type: String },
+		},
+		college: {
+			name: { type: String },
+			city: { type: String },
+			passingYear: { type: String },
+			titleOfDegree: { type: String },
+			nameOfEducationBoard: { type: String },
+			percentage: { type: String },
+		},
+	},
 });
 
 const Education = mongoose.model("Education", EducationSchema);

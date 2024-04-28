@@ -68,9 +68,6 @@ const BasicDetailsseeker1 = () => {
 		navigate("/jobs");
 	}, [navigate]);
 
-	// useEffect(() => {
-	// 	console.log(userInfo);
-	// }, [userInfo]);
 
 	return (
 		<div className="w-full relative bg-fafafa h-[713px] overflow-y-auto flex flex-row flex-wrap items-center justify-start pt-5 pb-[200px] pr-[42px] pl-[63px] box-border gap-[43px_102px] text-left text-base-3 text-silver-100 font-font">

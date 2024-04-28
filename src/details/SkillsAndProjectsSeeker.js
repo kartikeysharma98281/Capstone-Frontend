@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useUserContext } from "../UserContext";
 
 const SkillsAndProjectsseeker = () => {
-	const { projects, setProjects } = useUserContext();
+	const { projects, setProjects, skills, setSkills } = useUserContext();
 
 	const [project1Title, setproject1Title] = useState(projects[0].title || "");
 	const [project1Role, setproject1Role] = useState(projects[0].role || "");
@@ -58,9 +58,14 @@ const SkillsAndProjectsseeker = () => {
 		setProjects,
 	]);
 
-	useEffect(() => {
-		console.log("Projects updated:", projects);
-	}, [projects]);
+	// useEffect(() => {
+	// 	const timer = setTimeout(() => {
+	// 		console.log("Projects", projects);
+	// 		console.log("Skills", skills);
+	// 	}, 200);
+
+	// 	return () => clearTimeout(timer);
+	// }, [projects, skills]);
 
 	const navigate = useNavigate();
 	const onSkillsAndProjectButtonClick = useCallback(() => {
@@ -311,6 +316,10 @@ const SkillsAndProjectsseeker = () => {
 					className="relative z-[1] border-none outline-none bg-transparent"
 					placeholder="Search languages, software, frameworks..."
 					type="text"
+					value={skills.join(", ")}
+					onChange={(e) =>
+						setSkills(e.target.value.split(",").map((skill) => skill.trim()))
+					}
 				/>
 				<div className="h-[21.5px] flex flex-col items-start justify-start pt-1 px-0 pb-0 box-border">
 					<img

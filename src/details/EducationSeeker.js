@@ -103,10 +103,6 @@ const Educationseeker1 = () => {
 		collegePercentage,
 	]);
 
-	// useEffect(() => {
-	// 	console.log(educationInfo);
-	// }, [educationInfo]);
-
 	const navigate = useNavigate();
 	const onSkillsAndProjectButtonClick = () => {
 		handleSave();
