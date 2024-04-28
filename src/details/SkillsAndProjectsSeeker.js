@@ -65,7 +65,7 @@ const SkillsAndProjectsseeker = () => {
 	const navigate = useNavigate();
 	const onSkillsAndProjectButtonClick = useCallback(() => {
 		handleSave();
-		// navigate("/resume-and-portfolio-seeker");
+		navigate("/resume-and-portfolio-seeker");
 	}, [handleSave]);
 
 	const onGoBackTextClick = useCallback(() => {
