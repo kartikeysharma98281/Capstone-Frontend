@@ -4,6 +4,7 @@ import "./CandidateDashboard.css";
 import Headers from "../pages/Headers"
 
 const CandidateDashboard = () => {
+  
   const onSkillsAndProjectButtonClick = useCallback(() => {
     // Please sync "Resume and portfolio(seeker)" to the project
   }, []);
@@ -43,7 +44,7 @@ const CandidateDashboard = () => {
         {/* <div className="frame-child" style={{width: "201px"}} /> */}
         <span className="dot"></span>
           <div className="profile-photo-parent">
-            <div className="profile-photo">Profile photo</div>
+            <div className="profile-photo" style={{left:"0px" , top:"0px" , width: "100px"}}>Profile photo</div>
             <div className="frame-container">
               <img
                 className="frame-item"

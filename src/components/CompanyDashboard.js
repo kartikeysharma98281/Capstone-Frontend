@@ -1,8 +1,14 @@
 import CompanyDetails from "./CompanyDetails";
 import "./CompanyDashboard.css";
 import JobCard from "./JobCard";
+import { useNavigate } from "react-router-dom";
+
 
 const CompanyDashboard = () => {
+  const navigate = useNavigate();
+
+  
+
   return (
     <div className="dashboard">
       <header className="main-container">
@@ -27,7 +33,8 @@ const CompanyDashboard = () => {
   gridTemplateColumns: "repeat(2, 1fr)", // Two columns
   gap: "17px",
   padding: "10px",
-  margin: "0px"
+  margin: "0px",
+  top: "108px" ,position: "relative"
           }
         }>
         <JobCard

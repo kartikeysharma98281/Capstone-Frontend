@@ -1,14 +1,11 @@
 import React from "react"; 
 // // import styles from "../pages/JOBS.module.css"
-// // import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 // const JobCard = ({name , date , role , city , salary , description , top}) => {
 
-//   const navigate = useNavigate();
+//   
 
-//   const showJobsDetails = ()=>{
-//     navigate("/job-details")
-//   }
 
 
 //   return (
@@ -125,6 +122,13 @@ import React from "react";
 
 
 const JobCard = ({name , date , role , city , salary , description }) => {
+
+  const navigate = useNavigate();
+
+  const showJobsDetails = ()=>{
+    navigate("/job-details")
+  }
+
   return (
     <div className="flex items-center justify-center mt-2">
     <div className="w-[684px] shadow-[0px_10px_11px_rgba(229,_210,_131,_0.07)] rounded-8xs bg-celestial-hue-celestial-light box-border max-w-full h-[162px] text-left text-sm-5 text-f709c font-font border-[0.5px] border-solid border-rgb(59 130 246 / 0.5) top-44 flex items-center justify-center top-1/2 left-1/5 transform -translate-x-1/5 -translate-y-1/2 ">
@@ -165,7 +169,7 @@ const JobCard = ({name , date , role , city , salary , description }) => {
         alt=""
         src="/bookmarks@2x.png"
       />
-      <button className="absolute top-[calc(50%_+_26px)] left-[calc(50%_+_229px)] rounded-[6.21px] bg-color h-9 flex flex-row items-center justify-center py-0 px-[9.9px] box-border text-mini-8 text-fafafa cursor-pointer">
+      <button onClick={showJobsDetails} className="absolute top-[calc(50%_+_26px)] left-[calc(50%_+_229px)] rounded-[6.21px] bg-color h-9 flex flex-row items-center justify-center py-0 px-[9.9px] box-border text-mini-8 text-fafafa cursor-pointer">
         <div className="w-[72.6px] relative inline-block h-[24.2px] shrink-0 left-78px">
           Apply Now
         </div>

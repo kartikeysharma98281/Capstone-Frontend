@@ -1,14 +1,22 @@
 import { useCallback } from "react";
 import "./CompanyDetails.css";
+import { useNavigate } from "react-router-dom";
 
 const CompanyDetails = () => {
+  const navigate = useNavigate();
   const onSkillsAndProjectButtonClick = useCallback(() => {
     // Please sync "Hiring profile" to the project
-  }, []);
+    navigate("/job-posting")
+  }, [navigate]);
 
   const onSkillsAndProjectButton1Click = useCallback(() => {
     // Please sync "Post a job" to the project
-  }, []);
+    navigate("/job-posting")
+  }, [navigate]);
+ 
+  const editProfileButtonClick = useCallback(() => {
+    navigate("/hiring-profile")
+  },[navigate])
 
   return (
     <section className="company-details">
@@ -26,7 +34,7 @@ const CompanyDetails = () => {
           <div className="contact-details">
             <button
               className="skills-and-project-button"
-              onClick={onSkillsAndProjectButtonClick}
+              onClick={editProfileButtonClick}
             >
               <div className="edit-profile">Edit Profile</div>
               <div className="profile-icon-area">

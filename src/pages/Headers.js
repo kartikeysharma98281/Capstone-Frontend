@@ -32,7 +32,7 @@ const Headers = () => {
         />
         <img
           className="application-icon"
-          loading="eager"
+          loading="eager" 
           alt=""
           src="/application@2x.png"
         />
@@ -47,6 +47,7 @@ const Headers = () => {
           loading="eager"
           alt=""
           src="/profile.png"
+          style={{height: "28px" ,width: "28px" ,position: "relative" }}
         />
       </div>
     </header>

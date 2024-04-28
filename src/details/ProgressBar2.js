@@ -4,7 +4,7 @@ const ProgressBar2 = () => {
   return (
     <header className="progress-bar-4">
       <div className="saving-state">
-        <img className="component-42-icon" alt="" src="/property 1=green tick.png" />
+        <img className="component-42-icon" alt="" src="/property1-green_tick.png" />
         <div className="component-34">
           <div className="completed-percentage">Info</div>
         </div>
@@ -15,7 +15,7 @@ const ProgressBar2 = () => {
             className="component-46-icon"
             loading="eager"
             alt=""
-            src="/property 1=green tick.png"
+            src="/property1-green_tick.png"
           />
           <div className="component-38">
             <div className="portfolio-site-link">Education</div>
@@ -27,7 +27,7 @@ const ProgressBar2 = () => {
               className="component-44-icon"
               loading="eager"
               alt=""
-              src="/property 1=green tick.png"
+              src="/property1-green_tick.png"
             />
           </div>
           <div className="component-36">
@@ -38,7 +38,7 @@ const ProgressBar2 = () => {
         </div>
       </div>
       <div className="vector-container">
-        <img className="vector-icon3" alt="" src="/Property 1=full.png" />
+        <img className="vector-icon3" alt="" src="/Property1-full.png" />
         <div className="text-instance-link">
           <div className="component-40">
             <div className="linked-text-instance" style={{top: "39px"}}>Portfolio</div>
@@ -48,7 +48,7 @@ const ProgressBar2 = () => {
           className="component-48-icon"
           loading="eager"
           alt=""
-          src="/Property 1=work portfolio.png"
+          src="/Property1-work_portfolio.png"
         />
       </div>
     </header>

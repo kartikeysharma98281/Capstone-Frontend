@@ -29,6 +29,8 @@ const JOBS = () => {
   return (
     <>
       <div className={styles.jobs}>
+      <div style={{top: "214px" ,position: "relative"}}>
+
         <JobCard
           name="TechGen Innovations"
           role="Data Analyst Intern"
@@ -37,6 +39,7 @@ const JOBS = () => {
           salary="₹25000/month"
           description="Analyze and interpret data to provide actionable insights."
         />
+      </div>
       
         <div className={styles.exploreExcitingCareer}>
           Explore exciting career options!
