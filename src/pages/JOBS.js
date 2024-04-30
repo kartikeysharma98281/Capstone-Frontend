@@ -8,6 +8,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const JOBS = () => {
+
   const [isSignInOpen, setSignInOpen] = useState(false);
   const [isLogInPopupOpen, setLogInPopupOpen] = useState(false);
   const [JobsDetails, setJobsDetails] = useState([]);
@@ -114,6 +115,13 @@ const JOBS = () => {
               src="/notifications@2x.png"
               style={{ cursor: "pointer" }}
             />
+             {/* <img
+              className={styles.notificationsIcon}
+              alt=""
+              src="/profile.png"
+              style={{ cursor: "pointer" , height: "24px"  , width: "24px"}}
+              onClick={openSignIn}
+            /> */}
           </div>
           <div className={styles.headerInner}>
             <div className={styles.nexusParent}>
