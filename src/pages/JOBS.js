@@ -160,7 +160,12 @@ const JOBS = () => {
 						</Link>
 					</div>
 					<div className={styles.jobs1}>
-						<div className={styles.lpa}>Skill tests</div>
+						<Link
+							to="/test"
+							className={styles.lpa}
+						>
+							Skill tests
+						</Link>
 					</div>
 					<div className={styles.jobs1}>
 						<div className={styles.lpa}>Interviews</div>
