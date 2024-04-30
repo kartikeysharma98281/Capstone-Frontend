@@ -1,12 +1,10 @@
-import React from "react"; 
+import React from "react";
 // // import styles from "../pages/JOBS.module.css"
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 // const JobCard = ({name , date , role , city , salary , description , top}) => {
 
-//   
-
-
+//
 
 //   return (
 //     <div className={styles.jobDescrip} style={{top: top}}>
@@ -39,7 +37,7 @@ import { useNavigate } from 'react-router-dom';
 //       <div className={styles.jobDescripChild} />
 //     </div>
 //   );
-// }; 
+// };
 
 // export default JobCard;
 
@@ -120,65 +118,63 @@ import { useNavigate } from 'react-router-dom';
 
 // export default JobCard;
 
+const JobCard = ({ name, date, role, city, salary, description }) => {
+	const navigate = useNavigate();
 
-const JobCard = ({name , date , role , city , salary , description }) => {
+	const showJobsDetails = () => {
+		navigate("/job-details");
+	};
 
-  const navigate = useNavigate();
-
-  const showJobsDetails = ()=>{
-    navigate("/job-details")
-  }
-
-  return (
-    <div className="flex items-center justify-center mt-2">
-    <div className="w-[684px] shadow-[0px_10px_11px_rgba(229,_210,_131,_0.07)] rounded-8xs bg-celestial-hue-celestial-light box-border max-w-full h-[162px] text-left text-sm-5 text-f709c font-font border-[0.5px] border-solid border-rgb(59 130 246 / 0.5) top-44 flex items-center justify-center top-1/2 left-1/5 transform -translate-x-1/5 -translate-y-1/2 ">
-      <div className="absolute top-[48px] left-[104px] inline-block w-[124px] h-[16.8px]">
-        {name}
-      </div>
-      <div className="absolute top-[29px] left-[301px] text-2xs-4">
-        {date}
-      </div>
-      <div className="absolute top-[20px] left-[102px] text-xl-5 font-semibold text-color">
-        {role}
-      </div>
-      <div className="absolute top-[92px] left-[21px]">
-        {description}
-      </div>
-      <div className="absolute top-[125px] left-[16px] h-[23px] flex flex-row items-center justify-center gap-[2px] text-limegreen">
-        <img
-          className="w-[23px] relative h-[23px]"
-          alt=""
-          src="/monetization-on@2x.png"
-        />
-        <div className="w-[92px] relative inline-block h-5 shrink-0">
-          {salary}
-        </div>
-      </div>
-      <div className="absolute top-[125px] left-[153px] flex flex-row items-center justify-start gap-[2px] text-color">
-        <img
-          className="w-[23px] relative h-[23px]"
-          alt=""
-          src="/location-on@2x.png"
-        />
-        <div className="w-[107px] relative inline-block h-5 shrink-0">
-          {city}
-        </div>
-      </div>
-      <img
-        className="absolute top-[20px] left-[629px] w-7 h-7"
-        alt=""
-        src="/bookmarks@2x.png"
-      />
-      <button onClick={showJobsDetails} className="absolute top-[calc(50%_+_26px)] left-[calc(50%_+_229px)] rounded-[6.21px] bg-color h-9 flex flex-row items-center justify-center py-0 px-[9.9px] box-border text-mini-8 text-fafafa cursor-pointer">
-        <div className="w-[72.6px] relative inline-block h-[24.2px] shrink-0 left-78px">
-          Apply Now
-        </div>
-      </button>
-      <div className="absolute top-[15px] left-[21px] rounded-[50%] bg-gainsboro-200 w-[65px] h-[65px]" />
-    </div>
-  </div>
-  );
+	return (
+		<div className="flex items-center justify-center mt-2">
+			<div className="w-[684px] shadow-[0px_10px_11px_rgba(229,_210,_131,_0.07)] rounded-8xs bg-celestial-hue-celestial-light box-border max-w-full h-[162px] text-left text-sm-5 text-f709c font-font border-[0.5px] border-solid border-rgb(59 130 246 / 0.5) flex items-center justify-center top-1/2 left-1/5 transform -translate-x-1/5 -translate-y-1/2 ">
+				<div className="absolute top-[48px] left-[104px] inline-block w-[124px] h-[16.8px]">
+					{name}
+				</div>
+				<div className="absolute top-[29px] left-[301px] text-2xs-4">
+					{date}
+				</div>
+				<div className="absolute top-[20px] left-[102px] text-xl-5 font-semibold text-color">
+					{role}
+				</div>
+				<div className="absolute top-[92px] left-[21px]">{description}</div>
+				<div className="absolute top-[125px] left-[16px] h-[23px] flex flex-row items-center justify-center gap-[2px] text-limegreen">
+					<img
+						className="w-[23px] relative h-[23px]"
+						alt=""
+						src="/monetization-on@2x.png"
+					/>
+					<div className="w-[92px] relative inline-block h-5 shrink-0">
+						{salary}
+					</div>
+				</div>
+				<div className="absolute top-[125px] left-[153px] flex flex-row items-center justify-start gap-[2px] text-color">
+					<img
+						className="w-[23px] relative h-[23px]"
+						alt=""
+						src="/location-on@2x.png"
+					/>
+					<div className="w-[107px] relative inline-block h-5 shrink-0">
+						{city}
+					</div>
+				</div>
+				<img
+					className="absolute top-[20px] left-[629px] w-7 h-7"
+					alt=""
+					src="/bookmarks@2x.png"
+				/>
+				<button
+					onClick={showJobsDetails}
+					className="absolute top-[calc(50%_+_26px)] left-[calc(50%_+_229px)] rounded-[6.21px] bg-color h-9 flex flex-row items-center justify-center py-0 px-[9.9px] box-border text-mini-8 text-fafafa cursor-pointer"
+				>
+					<div className="w-[72.6px] relative inline-block h-[24.2px] shrink-0 left-78px">
+						Apply Now
+					</div>
+				</button>
+				<div className="absolute top-[15px] left-[21px] rounded-[50%] bg-gainsboro-200 w-[65px] h-[65px]" />
+			</div>
+		</div>
+	);
 };
 
 export default JobCard;
-
